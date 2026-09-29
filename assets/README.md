@@ -22,7 +22,6 @@ assets/
 
 | Arquivo | Onde entra | Situação hoje |
 |---|---|---|
-| `home/capas/thumbdrop.mp4` | Capa do card ThumbDrop | Frame parado do Figma |
 | `home/capas/ct-em-campo.mp4` | Capa do card CT em Campo | Frame parado do Figma |
 | `home/capas/ct-links.mp4` | Capa do card Canaltech · Hub de links | Frame parado do Figma |
 | `cases/thumbdrop/01-hero-mobile.png` | Imagem de topo do ThumbDrop no mobile ("O FIM DA IA BARATA"), em 2320×1046 | Usa um recorte em baixa resolução (`01-hero-mobile-TEMP.png`). Ao subir o arquivo certo, apague o TEMP |
