@@ -884,6 +884,8 @@ def page_html(key, lang, desk, mob, reg, icons, prefix, tr):
 <link rel="icon" href="%(p)sfavicon.svg" type="image/svg+xml">
 <link rel="preload" href="%(p)sfonts/sofia-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="%(p)sassets/site.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TM34J12CLE"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-TM34J12CLE');</script>
 </head>
 <body>
 <div class="view view-d">%(desk)s</div>
@@ -902,7 +904,7 @@ def page_html(key, lang, desk, mob, reg, icons, prefix, tr):
 
 
 DEBUG = os.environ.get('DEBUG') == '1'
-SITE_URL = os.environ.get('SITE_URL', '')  # e.g. https://yourdomain.com/ — absolute URLs for canonical/hreflang/og
+SITE_URL = os.environ.get('SITE_URL', 'https://erickteixeira.art/')  # e.g. https://yourdomain.com/ — absolute URLs for canonical/hreflang/og
 
 DESCRIPTIONS = {
     'home': 'Treze anos de design. Marca, campanha, produto, design system e front-end na mesma entrega, com IA no meio do processo.',
