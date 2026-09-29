@@ -450,13 +450,6 @@ class Renderer:
             decl += [tuple(x.strip() for x in el.get('style').split(':', 1))]
         decl += list(extra_decl)
         nid = el.get('data-node-id')
-        # rows of cards: every card in the row takes the height of the tallest one
-        cl = (el.get('class') or '').split()
-        kids = [c for c in el if c.tag == 'div']
-        if 'flex' in cl and 'flex-col' not in cl and len(kids) >= 2 and all(
-                any(x.startswith('bg-[') for x in (c.get('class') or '').split()) and
-                any(x.startswith('rounded-[') for x in (c.get('class') or '').split()) for c in kids):
-            decl = [d for d in decl if d[0] != 'align-items'] + [('align-items', 'stretch')]
         # mobile layout also serves wider phones and tablets: media boxes scale by their Figma ratio
         if self.view == 'm' and nid in DIMS and el.tag == 'div' and any(k == 'height' and v.endswith('px') for k, v in decl) \
                 and has_media(el) and el.find('.//p') is None \
