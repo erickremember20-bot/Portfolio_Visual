@@ -450,6 +450,11 @@ class Renderer:
             decl += [tuple(x.strip() for x in el.get('style').split(':', 1))]
         decl += list(extra_decl)
         nid = el.get('data-node-id')
+        # desktop: text cards side by side (nbox, dbox, annotations) all take the tallest card's height
+        par0 = self.parent.get(el)
+        if self.view == 'd' and par0 is not None and re.fullmatch(r'nbox|dbox|card|anot \d+', el.get('data-name') or '') \
+                and 'flex-col' not in (par0.get('class') or '').split() and 'flex-wrap' not in (par0.get('class') or '').split():
+            decl = [d for d in decl if d[0] != 'align-self'] + [('align-self', 'stretch')]
         # mobile layout also serves wider phones and tablets: media boxes scale by their Figma ratio
         if self.view == 'm' and nid in DIMS and el.tag == 'div' and any(k == 'height' and v.endswith('px') for k, v in decl) \
                 and has_media(el) and el.find('.//p') is None \
