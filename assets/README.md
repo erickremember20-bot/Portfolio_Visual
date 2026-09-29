@@ -22,6 +22,5 @@ assets/
 
 | Arquivo | Onde entra | Situação hoje |
 |---|---|---|
-| `cases/thumbdrop/01-hero-mobile.png` | Imagem de topo do ThumbDrop no mobile ("O FIM DA IA BARATA"), em 2320×1046 | Usa um recorte em baixa resolução (`01-hero-mobile-TEMP.png`). Ao subir o arquivo certo, apague o TEMP |
 
 Os 4 vídeos de capa já estão no site.

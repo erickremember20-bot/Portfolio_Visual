@@ -4,7 +4,10 @@ Site estático gerado a partir do Figma **Portfolio Visual — Handoff (CODE)**,
 
 - **Inglês** é o idioma padrão, na raiz (`/`). **Português** fica em `/pt/`. O seletor EN/PT no topo alterna entre os dois.
 - **Desktop (1024 px ou mais):** o layout de 1400 do Figma, escalado proporcionalmente entre 1024 e 1399 px.
-- **Mobile (abaixo de 1024 px):** o layout de 360 do Figma, fluido. Funciona de 320 px até tablet.
+- **Mobile (abaixo de 1024 px):** o layout de 360 do Figma, fluido. Funciona de 320 px até tablet, com estes ajustes para leitura no celular:
+  - **Cases:** faixa de seções fixa, rolável na horizontal, com a seção atual destacada e barra de progresso de leitura.
+  - **Home:** o cabeçalho alto sai de cena ao rolar e entra uma barra compacta com o nome e o EN/PT.
+  - **Imagens dos cases:** mostram um selo de zoom. Ao tocar, abrem em tamanho legível e dá para arrastar para os lados.
 - **Menu:** o topo fica fixo. Nos cases, o menu leva a cada seção e destaca a seção atual. O nome no canto leva para a Home.
 - **Navegação:** botão de voltar ao topo. Nos cases, clicar numa imagem abre ela ampliada; clicar fora, no × ou apertar Esc fecha.
 

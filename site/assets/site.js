@@ -35,7 +35,8 @@
   if(lb&&zooms.length){
     var big=lb.querySelector('img'),x=lb.querySelector('.lb-x'),last=null;
     function open(img){last=img;big.src=img.currentSrc||img.src;big.alt=img.alt;lb.hidden=false;
-      requestAnimationFrame(function(){lb.classList.add('on')});document.body.classList.add('lb-open');x.focus()}
+      requestAnimationFrame(function(){lb.classList.add('on')});document.body.classList.add('lb-open');x.focus();
+      function center(){lb.scrollLeft=Math.max(0,(lb.scrollWidth-lb.clientWidth)/2)}big.complete?center():big.onload=center}
     function close(){lb.classList.remove('on');document.body.classList.remove('lb-open');
       setTimeout(function(){lb.hidden=true;big.removeAttribute('src')},250);last&&last.focus()}
     zooms.forEach(function(img){img.setAttribute('tabindex','0');img.setAttribute('role','button');
@@ -45,12 +46,23 @@
     document.addEventListener('keydown',function(e){if(e.key==='Escape'&&lb.classList.contains('on'))close()});
   }
 
-  // current section in the case menu
-  var links=[].slice.call(document.querySelectorAll('.view-d .menu-link'));
+  // current section in the menus (desktop row and mobile strip)
+  var links=[].slice.call(document.querySelectorAll('.menu-link,.mnav-link'));
   if(links.length&&'IntersectionObserver' in window){
-    var map={};links.forEach(function(a){map[a.getAttribute('href').slice(1)]=a});
-    var so=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){
-      links.forEach(function(a){a.removeAttribute('aria-current')});var a=map[e.target.id];a&&a.setAttribute('aria-current','true')}})},{rootMargin:'-45% 0px -50% 0px'});
-    Object.keys(map).forEach(function(id){var s=document.querySelector('.view-d #'+CSS.escape(id));s&&so.observe(s)});
+    var byId={};links.forEach(function(a){var id=a.getAttribute('href').slice(1);(byId[id]=byId[id]||[]).push(a)});
+    var so=new IntersectionObserver(function(es){es.forEach(function(e){if(!e.isIntersecting)return;
+      var mob=e.target.id.indexOf('m-')===0;
+      links.forEach(function(a){if((a.classList.contains('mnav-link'))===mob)a.removeAttribute('aria-current')});
+      (byId[e.target.id]||[]).forEach(function(a){a.setAttribute('aria-current','true');
+        if(mob){var row=a.parentNode;row.scrollTo({left:a.offsetLeft-row.clientWidth/2+a.clientWidth/2,behavior:'smooth'})}})})},{rootMargin:'-45% 0px -50% 0px'});
+    Object.keys(byId).forEach(function(id){var s=document.getElementById(id);s&&so.observe(s)});
   }
+
+  // reading progress (mobile case strip) and compact bar (mobile Home)
+  var prog=document.querySelector('.mnav-progress'),mbar=document.querySelector('.mbar'),mhead=document.querySelector('.view-m header');
+  function onScroll2(){
+    if(prog){var h=document.documentElement.scrollHeight-innerHeight;prog.style.setProperty('--p',h>0?Math.min(1,scrollY/h):0)}
+    if(mbar&&mhead){mbar.classList.toggle('on',scrollY>mhead.offsetTop+mhead.offsetHeight)}
+  }
+  window.addEventListener('scroll',onScroll2,{passive:true});onScroll2();
 })();

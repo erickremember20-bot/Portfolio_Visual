@@ -9,6 +9,8 @@ T = {
     'E-mail copiado': 'Email copied',
     'Imagem ampliada': 'Enlarged image',
     'Fechar': 'Close',
+    'Seções': 'Sections',
+    'Arraste para ver a imagem inteira': 'Drag to see the whole image',
     'Disponível para trabalhar': 'Available for work',
     'Desenho, escrevo o código e digo o que não deu certo.': 'I design, I write the code, and I tell you what didn’t work.',
     'Treze anos de design, cinco deles no Canaltech entre design system, marketing e comercial. Se você tem uma superfície que precisa sair pronta e medida, e não especificada, me chama.':

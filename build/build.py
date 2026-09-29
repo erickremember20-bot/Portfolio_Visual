@@ -167,6 +167,10 @@ def inherited(el, parents, key):
 # icon frames whose background lives on the frame itself in Figma
 ICON_BOX = {'PersonSimpleRun': [('background-color', '#39332e'), ('border-radius', '99px'), ('overflow', 'hidden')]}
 
+ZOOM_BADGE = ('<span class="zbadge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><circle cx="10.5" cy="10.5" r="6" '
+              'stroke="#fbf7f4" stroke-width="2"/><path d="M15 15l5 5M10.5 8v5M8 10.5h5" stroke="#fbf7f4" stroke-width="2" '
+              'stroke-linecap="round"/></svg></span>')
+
 # menu label -> section layer label, where they differ
 MENU_ALIAS = {'Versões': 'A/B'}
 
@@ -400,6 +404,7 @@ class Renderer:
         self.nav_targets = {}
         self.parent = {}
         self.scaled = set()
+        self.menu_labels = []
 
     # -- helpers
     def t(self, s):
@@ -537,12 +542,16 @@ class Renderer:
 
         # the top bar sticks to the top of the viewport
         if name == 'topo':
-            extra_cls.append('topbar')
             out_tag = 'header'
+            if self.view == 'd' or self.page != 'home':
+                extra_cls.append('topbar')
+            if self.view == 'm':
+                head = '<header%s>%s</header>' % (self.attrs(el, extra_cls=extra_cls), self.children(el))
+                return head + (self.mobile_bar(el) if self.page == 'home' else self.mobile_nav())
 
         # sections get ids so the menu can link to them
-        if self.view == 'd' and self.parent.get(el) is self.root and bname in self.section_ids:
-            attrs += ' id="%s"' % self.section_ids[bname]
+        if self.parent.get(el) is self.root and bname in self.section_ids:
+            attrs += ' id="%s%s"' % ('' if self.view == 'd' else 'm-', self.section_ids[bname])
             if out_tag == 'div':
                 out_tag = 'section'
 
@@ -553,8 +562,9 @@ class Renderer:
         if bname in IMAGES and len(el) and el[0].tag == 'img':
             alt = self.alt_for(el)
             zoom = ' data-zoom' if self.page != 'home' else ''
-            return '<div%s%s><img src="%s" alt="%s" loading="lazy" decoding="async" class="fill"%s></div>' % (
-                self.attrs(el), attrs, self.url(IMAGES[bname]), html.escape(alt), zoom)
+            badge = ZOOM_BADGE if zoom else ''
+            return '<div%s%s><img src="%s" alt="%s" loading="lazy" decoding="async" class="fill"%s>%s</div>' % (
+                self.attrs(el), attrs, self.url(IMAGES[bname]), html.escape(alt), zoom, badge)
         if bname in VIDEOS and len(el) == 0:
             v = VIDEOS[bname]
             if not os.path.exists(os.path.join(OUT, v + '.mp4')):
@@ -592,6 +602,24 @@ class Renderer:
 
         return '<%s%s%s>%s</%s>' % (out_tag, self.attrs(el, extra_decl, extra_cls), attrs,
                                     self.children(el), out_tag)
+
+    # -- mobile additions
+    def mobile_nav(self):
+        # the Figma mobile frames keep the case menu as a hidden layer; on phones it becomes a
+        # sticky, horizontally scrollable row under the top bar
+        links = []
+        for label in self.menu_labels:
+            key = MENU_ALIAS.get(label, label)
+            if key in self.nav_targets:
+                links.append('<a href="#m-%s" class="mnav-link">%s</a>' % (self.nav_targets[key], self.text(label)))
+        return ('<nav class="mnav" aria-label="%s"><div class="mnav-row">%s</div>'
+                '<span class="mnav-progress" aria-hidden="true"></span></nav>') % (self.t('Seções'), ''.join(links))
+
+    def mobile_bar(self, topo):
+        # Home: the tall header scrolls away and a compact bar slides in
+        lang = next((c for c in topo.iter() if c.tag == 'langsel'), None)
+        return ('<div class="mbar" aria-hidden="true"><a href="#" class="mbar-name" tabindex="-1">%s</a>%s</div>') % (
+            self.text('Erick · product & design engineer'), self.langsel(lang).replace('<a ', '<a tabindex="-1" ') if lang is not None else '')
 
     # -- pieces
     def alt_for(self, el):
@@ -715,6 +743,27 @@ img[data-zoom]:focus-visible{outline:2px solid #232323;outline-offset:-4px}
 .lb-x svg{width:18px;height:18px}
 @media (max-width:1023.98px){.lb{padding:64px 12px}}
 body.lb-open{overflow:hidden}
+.zbadge{display:none}
+.mnav,.mbar{display:none}
+@media (max-width:1023.98px){
+.zbadge{display:flex;position:absolute;right:8px;bottom:8px;width:28px;height:28px;border-radius:999px;background:rgba(35,35,35,.72);align-items:center;justify-content:center;pointer-events:none}
+.zbadge svg{width:16px;height:16px}
+.mnav{display:block;position:sticky;top:42px;z-index:39;align-self:stretch;margin:0 -12px;background:#fbf7f4;border-bottom:1px solid #e4e1de}
+.mnav-row{display:flex;gap:20px;overflow-x:auto;padding:6px 12px 0;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.mnav-row::-webkit-scrollbar{display:none}
+.mnav-link{flex:0 0 auto;font-size:14px;line-height:1.5;letter-spacing:.28px;color:#675d54;padding:4px 0 8px;border-bottom:2px solid transparent;transition:color .2s,border-color .2s}
+.mnav-link[aria-current="true"]{color:#232323;border-bottom-color:#232323}
+.mnav-progress{position:absolute;left:0;right:0;bottom:-1px;height:2px;background:#99928c;transform-origin:0 50%%;transform:scaleX(var(--p,0))}
+.view-m [id]{scroll-margin-top:96px}
+.mbar{display:flex;position:fixed;top:0;left:0;right:0;z-index:45;align-items:center;justify-content:space-between;gap:12px;padding:10px 12px;background:#fbf7f4;border-bottom:1px solid #e4e1de;transform:translateY(-100%%);visibility:hidden;transition:transform .25s,visibility .25s}
+.mbar.on{transform:none;visibility:visible}
+.mbar-name{font-weight:700;font-size:16px;line-height:1.5;letter-spacing:.32px;color:#232323;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mbar .langsel{flex-shrink:0;border:1px solid #d0cdca;border-radius:999px;padding:2px;display:flex}
+.lb{display:block;overflow:auto;padding:0;white-space:nowrap;text-align:center;-webkit-overflow-scrolling:touch}
+.lb img{display:inline-block;height:62vh;width:auto;max-width:none;max-height:none;margin:19vh 12px 0;vertical-align:top}
+.lb-hint{display:block;position:fixed;left:0;right:0;bottom:24px;text-align:center;color:#d0cdca;font-size:12px;line-height:1.5;letter-spacing:.24px;pointer-events:none}
+}
+.lb-hint{display:none}
 .toast{position:fixed;left:50%%;bottom:24px;transform:translate(-50%%,8px);z-index:60;background:#232323;color:#fbf7f4;font-size:14px;line-height:1.5;letter-spacing:.28px;padding:10px 18px;border-radius:999px;opacity:0;visibility:hidden;transition:opacity .25s,transform .25s,visibility .25s}
 .toast.on{opacity:1;visibility:visible;transform:translate(-50%%,0)}
 """
@@ -769,7 +818,8 @@ SITE_JS = r"""
   if(lb&&zooms.length){
     var big=lb.querySelector('img'),x=lb.querySelector('.lb-x'),last=null;
     function open(img){last=img;big.src=img.currentSrc||img.src;big.alt=img.alt;lb.hidden=false;
-      requestAnimationFrame(function(){lb.classList.add('on')});document.body.classList.add('lb-open');x.focus()}
+      requestAnimationFrame(function(){lb.classList.add('on')});document.body.classList.add('lb-open');x.focus();
+      function center(){lb.scrollLeft=Math.max(0,(lb.scrollWidth-lb.clientWidth)/2)}big.complete?center():big.onload=center}
     function close(){lb.classList.remove('on');document.body.classList.remove('lb-open');
       setTimeout(function(){lb.hidden=true;big.removeAttribute('src')},250);last&&last.focus()}
     zooms.forEach(function(img){img.setAttribute('tabindex','0');img.setAttribute('role','button');
@@ -779,14 +829,25 @@ SITE_JS = r"""
     document.addEventListener('keydown',function(e){if(e.key==='Escape'&&lb.classList.contains('on'))close()});
   }
 
-  // current section in the case menu
-  var links=[].slice.call(document.querySelectorAll('.view-d .menu-link'));
+  // current section in the menus (desktop row and mobile strip)
+  var links=[].slice.call(document.querySelectorAll('.menu-link,.mnav-link'));
   if(links.length&&'IntersectionObserver' in window){
-    var map={};links.forEach(function(a){map[a.getAttribute('href').slice(1)]=a});
-    var so=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){
-      links.forEach(function(a){a.removeAttribute('aria-current')});var a=map[e.target.id];a&&a.setAttribute('aria-current','true')}})},{rootMargin:'-45% 0px -50% 0px'});
-    Object.keys(map).forEach(function(id){var s=document.querySelector('.view-d #'+CSS.escape(id));s&&so.observe(s)});
+    var byId={};links.forEach(function(a){var id=a.getAttribute('href').slice(1);(byId[id]=byId[id]||[]).push(a)});
+    var so=new IntersectionObserver(function(es){es.forEach(function(e){if(!e.isIntersecting)return;
+      var mob=e.target.id.indexOf('m-')===0;
+      links.forEach(function(a){if((a.classList.contains('mnav-link'))===mob)a.removeAttribute('aria-current')});
+      (byId[e.target.id]||[]).forEach(function(a){a.setAttribute('aria-current','true');
+        if(mob){var row=a.parentNode;row.scrollTo({left:a.offsetLeft-row.clientWidth/2+a.clientWidth/2,behavior:'smooth'})}})})},{rootMargin:'-45% 0px -50% 0px'});
+    Object.keys(byId).forEach(function(id){var s=document.getElementById(id);s&&so.observe(s)});
   }
+
+  // reading progress (mobile case strip) and compact bar (mobile Home)
+  var prog=document.querySelector('.mnav-progress'),mbar=document.querySelector('.mbar'),mhead=document.querySelector('.view-m header');
+  function onScroll2(){
+    if(prog){var h=document.documentElement.scrollHeight-innerHeight;prog.style.setProperty('--p',h>0?Math.min(1,scrollY/h):0)}
+    if(mbar&&mhead){mbar.classList.toggle('on',scrollY>mhead.offsetTop+mhead.offsetHeight)}
+  }
+  window.addEventListener('scroll',onScroll2,{passive:true});onScroll2();
 })();
 """
 
@@ -829,7 +890,7 @@ def page_html(key, lang, desk, mob, reg, icons, prefix, tr):
 <div class="view view-m">%(mob)s</div>
 <button type="button" class="totop" aria-label="%(totop)s"><span class="ico">%(caret)s</span></button>
 <div class="toast" role="status" aria-live="polite">%(copied)s</div>
-<div class="lb" role="dialog" aria-modal="true" aria-label="%(zoomlabel)s" hidden><button type="button" class="lb-x" aria-label="%(close)s"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" stroke="#232323" stroke-width="2" stroke-linecap="round"/></svg></button><img alt=""></div>
+<div class="lb" role="dialog" aria-modal="true" aria-label="%(zoomlabel)s" hidden><button type="button" class="lb-x" aria-label="%(close)s"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" stroke="#232323" stroke-width="2" stroke-linecap="round"/></svg></button><img alt=""><span class="lb-hint">%(hint)s</span></div>
 <script src="%(p)sassets/site.js" defer></script>
 </body>
 </html>
@@ -837,7 +898,7 @@ def page_html(key, lang, desk, mob, reg, icons, prefix, tr):
            canon=purl(key, lang), en=purl(key, 'en'), pt=purl(key, 'pt'), og=(SITE_URL or prefix) + 'og-image.jpg',
            oglocale='en_US' if lang == 'en' else 'pt_BR', p=prefix, desk=desk, mob=mob,
            totop=tr('Voltar ao topo'), copied=tr('E-mail copiado'), caret=caret,
-           zoomlabel=tr('Imagem ampliada'), close=tr('Fechar'))
+           zoomlabel=tr('Imagem ampliada'), close=tr('Fechar'), hint=tr('Arraste para ver a imagem inteira'))
 
 
 DEBUG = os.environ.get('DEBUG') == '1'
@@ -896,6 +957,10 @@ def build():
     for key in PAGES:
         for view in ('d', 'm'):
             trees[key, view] = open(os.path.join(SRC, 'fig', '%s_%s.jsx' % (view, key)), encoding='utf-8').read()
+    menus = {}
+    for key in PAGES:
+        menu = [e for e in jsx_to_tree(trees[key, 'd']).iter() if e.get('data-name') == 'menu']
+        menus[key] = [text_of(p) for p in menu[0]] if menu else []
     missing = []
     for lang in ('en', 'pt'):
         tr = Translator(lang)
@@ -904,6 +969,7 @@ def build():
             parts = []
             for view in ('d', 'm'):
                 r = Renderer(key, view, lang, reg, icons, tr, prefix)
+                r.menu_labels = menus[key]
                 parts.append(r.render(jsx_to_tree(trees[key, view])))
             doc = page_html(key, lang, parts[0], parts[1], reg, icons, prefix, tr)
             d = OUT if lang == 'en' else os.path.join(OUT, 'pt')
