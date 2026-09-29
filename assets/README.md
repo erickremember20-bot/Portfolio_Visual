@@ -22,7 +22,6 @@ assets/
 
 | Arquivo | Onde entra | Situação hoje |
 |---|---|---|
-| `home/capas/nega-nago.mp4` | Capa do card Nega Nagô, na Home e em "Outros projetos" | Usa um frame parado do Figma (`nega-nago-poster.png`) |
 | `home/capas/thumbdrop.mp4` | Capa do card ThumbDrop | Frame parado do Figma |
 | `home/capas/ct-em-campo.mp4` | Capa do card CT em Campo | Frame parado do Figma |
 | `home/capas/ct-links.mp4` | Capa do card Canaltech · Hub de links | Frame parado do Figma |
