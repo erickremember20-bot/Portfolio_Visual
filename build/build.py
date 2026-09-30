@@ -32,7 +32,7 @@ PAGES = {
 }
 
 LINKS = {
-    'cv': 'https://drive.google.com/file/d/1JTTRTSD7KfXLHvJ3SDQT1B0TvGoX8IiO/view?usp=sharing',
+    'cv': 'https://drive.google.com/file/d/11H_4y3H41-woYrARIZSNc_34PytAH3-P/view?usp=sharing',
     'linkedin': 'https://www.linkedin.com/in/erick-teixeira-031b3a213/',
     'email': 'oerickteixeira@gmail.com',
     'figma': {
