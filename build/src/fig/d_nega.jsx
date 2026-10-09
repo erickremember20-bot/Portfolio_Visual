@@ -1,19 +1,19 @@
-const imgCardHeroNegaNago1 = "https://www.figma.com/api/mcp/asset/6902fd11-c666-45d7-b64e-56ae9a9a7922.png";
-const imgCardAntesNegaNago1 = "https://www.figma.com/api/mcp/asset/34251ffd-9201-4761-a697-dd8224dfd671.png";
-const imgCardDepoisNegaNago1 = "https://www.figma.com/api/mcp/asset/05e05c7e-31fb-478e-9f11-3661c26db616.png";
-const imgCardWhatsappNeganago1 = "https://www.figma.com/api/mcp/asset/2c040c18-c8c4-4114-b18d-19496de295e3.png";
-const imgCardRestricoes2 = "https://www.figma.com/api/mcp/asset/0895cad1-28dc-45c3-b62b-0c4feeaf8ffd.png";
-const imgCardRestricaoDecisaoNega = "https://www.figma.com/api/mcp/asset/4c7a01fd-20ad-4844-b503-3a631dea1611.png";
-const imgCardWireframe1 = "https://www.figma.com/api/mcp/asset/3797954f-1b93-4ea6-955e-28e7dd448ea7.png";
-const imgCardPrototype1 = "https://www.figma.com/api/mcp/asset/8b4fa0bc-b972-42a6-8e81-89c5a1b85d10.png";
-const imgCardPersonasNega = "https://www.figma.com/api/mcp/asset/5da0ce28-dd59-4a10-af01-ae033b1bb46a.png";
-const imgCardDesignSystem1 = "https://www.figma.com/api/mcp/asset/144e0fcd-e907-4118-87ad-2dec67fd17c0.png";
-const imgNeganagofluxoimagensia16X961 = "https://www.figma.com/api/mcp/asset/34405aca-7792-41db-a9c1-319241c8d068.png";
-const imgFigmaIcon1 = "https://www.figma.com/api/mcp/asset/770a8d2d-f987-4e4a-9674-acc61a8a1ad6.svg";
-const imgEllipse = "https://www.figma.com/api/mcp/asset/714a6a9a-db7a-4cc3-adf6-f07a034087a4.svg";
-const imgCopy = "https://www.figma.com/api/mcp/asset/dbc738d9-d9b6-4675-ba52-6fa07c110bd4.svg";
-const imgReadCvLogo = "https://www.figma.com/api/mcp/asset/9fabd00b-da6a-4216-b46e-e516e92f3e12.svg";
-const imgLinkedInIcon1 = "https://www.figma.com/api/mcp/asset/66451514-07b3-4dba-9a9b-eb4f49dc69c8.svg";
+const imgCardHeroNegaNago1 = "https://www.figma.com/api/mcp/asset/ac2d6bbe-239b-4302-a4af-18d6b03b87aa.png";
+const imgCardAntesNegaNago1 = "https://www.figma.com/api/mcp/asset/eebe0c98-659b-46ea-8616-cc96490e28f2.png";
+const imgCardDepoisNegaNago1 = "https://www.figma.com/api/mcp/asset/ac4f663c-111f-48a7-ba5e-84e9914019da.png";
+const imgCardWhatsappNeganago1 = "https://www.figma.com/api/mcp/asset/8924f7d7-58c8-4b4f-864e-d6b5c6144df2.png";
+const imgCardRestricoes2 = "https://www.figma.com/api/mcp/asset/4a5c1873-8add-4a5b-8b02-b62fce040e8c.png";
+const imgCardRestricaoDecisaoNega = "https://www.figma.com/api/mcp/asset/c35cc271-87fe-458f-aea8-ecd718e55580.png";
+const imgCardWireframe1 = "https://www.figma.com/api/mcp/asset/bebe385f-d6a8-42b3-94ed-91e0ac5629a3.png";
+const imgCardPrototype1 = "https://www.figma.com/api/mcp/asset/75cfa664-887f-4fdf-ba78-0b2672470298.png";
+const imgCardPersonasNega = "https://www.figma.com/api/mcp/asset/1e2d72e1-7f4c-48bb-9ba6-391d3e3c4d1e.png";
+const imgCardDesignSystem1 = "https://www.figma.com/api/mcp/asset/35835ee4-4da9-4cd3-9ac3-801f053ca447.png";
+const imgNeganagofluxoimagensia16X961 = "https://www.figma.com/api/mcp/asset/5f87685b-d4cf-43ea-8f8f-6f154bbab40d.png";
+const imgFigmaIcon1 = "https://www.figma.com/api/mcp/asset/9b9701de-61eb-4709-ae6f-fbc100fcf89c.svg";
+const imgEllipse = "https://www.figma.com/api/mcp/asset/397deca3-c3d7-4b1a-97be-d40da655a7bb.svg";
+const imgCopy = "https://www.figma.com/api/mcp/asset/f81de134-d656-49bd-9508-58ea995d1356.svg";
+const imgReadCvLogo = "https://www.figma.com/api/mcp/asset/8d84976d-3a9f-407f-a1a7-5ab8b1ff6e55.svg";
+const imgLinkedInIcon1 = "https://www.figma.com/api/mcp/asset/d0de12b0-2507-4515-b703-eaee3d7fcd5b.svg";
 
 type SeletorDeIdiomaProps = {
   className?: string;
@@ -311,13 +311,13 @@ export default function CaseNegaNagoV3Desktop1400() {
       <div className="content-stretch flex flex-col gap-[48px] items-start overflow-clip pt-[48px] relative shrink-0 w-full" data-node-id="2230:7238" data-name="04 · Pesquisa">
         <div className="[word-break:break-word] content-stretch flex flex-col gap-[16px] items-start overflow-clip relative shrink-0 w-full" data-node-id="2230:7239" data-name="cabeçalho">
           <p className="font-['Sofia_Sans:Bold'] font-bold leading-[1.5] min-w-full relative shrink-0 text-[#675d54] text-[14px] tracking-[0.28px] uppercase w-[min-content]" data-node-id="2230:7240">
-            04 · PESQUISA
+            04 · PESQUISA QUALITATIVA
           </p>
           <p className="font-['Sofia_Sans:Black'] font-black leading-[1.1] relative shrink-0 text-[#232323] text-[40px] tracking-[0.8px] w-[900px]" data-node-id="2230:7241">
             Quatro pessoas, duas rodadas. A primeira sem cor nenhuma.
           </p>
           <p className="font-['Sofia_Sans:Regular'] font-normal leading-[1.5] relative shrink-0 text-[#675d54] text-[18px] tracking-[0.36px] w-[820px]" data-node-id="2230:7242">
-            Testei em dois momentos: primeiro um rascunho em cinza, só o caminho; depois o protótipo inteiro. Em cinza, o elogio não tem para onde fugir.
+            Testes de usabilidade em dois momentos: primeiro um rascunho em cinza, só o caminho; depois o protótipo inteiro. Em cinza, o elogio não tem para onde fugir.
           </p>
         </div>
         <div className="content-stretch flex gap-[24px] items-start overflow-clip relative shrink-0 w-full" data-node-id="2230:7243" data-name="as duas rodadas">
@@ -577,14 +577,14 @@ export default function CaseNegaNagoV3Desktop1400() {
           </div>
         </div>
         <p className="font-['Sofia_Sans:Regular'] font-normal leading-[1.5] relative shrink-0 text-[#675d54] text-[14px] tracking-[0.28px] w-[820px]" data-node-id="2230:7337">
-          O intervalo de confiança e o valor-p foram calculados sobre os agendamentos observados antes e depois do lançamento, por binomial condicional exata. Não é modelo, é a agenda dela.
+          Análise quantitativa: o intervalo de confiança e o valor-p foram calculados sobre os agendamentos observados antes e depois do lançamento, por binomial condicional exata. Não é modelo, é a agenda dela.
         </p>
         <div className="bg-[#232323] content-stretch flex flex-col gap-[16px] items-start overflow-clip px-[40px] py-[36px] relative rounded-[12px] shrink-0 w-full" data-node-id="2230:7338" data-name="card">
           <p className="font-['Sofia_Sans:Bold'] font-bold leading-[1.1] relative shrink-0 text-[#a39383] text-[20px] tracking-[0.4px] w-full" data-node-id="2230:7339">
             O que eu não resolvi.
           </p>
           <p className="font-['Sofia_Sans:Regular'] font-normal leading-[1.5] relative shrink-0 text-[#fbf7f4] text-[16px] tracking-[0.32px] w-full" data-node-id="2230:7340">
-            As imagens de IA ainda não estão identificadas na tela: são renders de referência, não portfólio da Mayara, e está escrito aqui mas precisa estar escrito no produto. Quatro pessoas acham o problema grande, não o de cauda — com o fluxo em operação, dá para observar uso real em vez de sessão marcada, e é esse o próximo passo da pesquisa.
+            As imagens de IA ainda não estão identificadas na tela: são renders de referência, não portfólio da Mayara, e está escrito aqui mas precisa estar escrito no produto. Quatro pessoas acham o problema grande, não o de cauda. Com o fluxo em operação, o próximo passo é uma pesquisa contextual: observar o uso real, em vez de sessão marcada.
           </p>
         </div>
       </div>

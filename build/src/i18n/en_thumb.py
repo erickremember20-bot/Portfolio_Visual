@@ -51,7 +51,7 @@ T = {
     'A primeira versão, com o recorte e o filtro feitos fora da ferramenta.': 'The first version, with the cutout and filter done outside the tool.',
     'A versão final, com recorte e filtro dentro do editor. Três minutos, thumb publicada no canal.':
         'The final version, with cutout and filter inside the editor. Three minutes, thumbnail published on the channel.',
-    'QUEM TESTOU': 'WHO TESTED IT',
+    'QUEM TESTOU · PESQUISA QUALITATIVA': 'WHO TESTED IT · QUALITATIVE RESEARCH',
     'quem testou · duas das seis pessoas por rodada': 'who tested it · two of the six people per round',
     'O QUE A SEGUNDA VERSÃO RESOLVEU': 'WHAT THE SECOND VERSION SOLVED',
     'V1 → V2 · o que travava e o que mudou': 'V1 → V2 · what got stuck and what changed',

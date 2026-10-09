@@ -113,7 +113,7 @@
       </frame>
       <frame id="4016:42" name="quem testou" x="0" y="1180" width="1160" height="697.5">
         <frame id="4016:43" name="QUEM TESTOU" x="0" y="0" width="1160" height="21">
-          <text id="4016:44" name="QUEM TESTOU" x="0" y="0" width="1160" height="21" />
+          <text id="4016:44" name="QUEM TESTOU · PESQUISA QUALITATIVA" x="0" y="0" width="1160" height="21" />
         </frame>
         <frame id="4016:55" name="[mockup] quem testou · duas das seis pessoas por rodada" x="0" y="45" width="1160" height="652.5">
           <rounded-rectangle id="4016:56" name="card - personas - thumbdrop" x="0" y="0" width="1160" height="652.5" />
@@ -822,9 +822,9 @@ e em operação" x="20" y="52" width="192" height="42" />
     </frame>
     <frame id="2230:7238" name="04 · Pesquisa" x="120" y="5037.5" width="1160" height="2221.5">
       <frame id="2230:7239" name="cabeçalho" x="0" y="48" width="1160" height="195">
-        <text id="2230:7240" name="04 · PESQUISA" x="0" y="0" width="1160" height="21" />
+        <text id="2230:7240" name="04 · PESQUISA QUALITATIVA" x="0" y="0" width="1160" height="21" />
         <text id="2230:7241" name="Quatro pessoas, duas rodadas. A primeira sem cor nenhuma." x="0" y="37" width="900" height="88" />
-        <text id="2230:7242" name="Testei em dois momentos separados de propósito. Primeiro um " x="0" y="141" width="820" height="54" />
+        <text id="2230:7242" name="Testes de usabilidade em dois momentos: primeiro um rascunho" x="0" y="141" width="820" height="54" />
       </frame>
       <frame id="2230:7243" name="as duas rodadas" x="0" y="291" width="1160" height="418">
         <frame id="2230:7244" name="rodada 1" x="0" y="0" width="568" height="418">
@@ -962,10 +962,10 @@ e em operação" x="20" y="52" width="192" height="42" />
           <text id="2230:7336" name="telas para sair do catálogo com a mensagem pronta" x="24" y="80" width="233" height="42" />
         </frame>
       </frame>
-      <text id="2230:7337" name="O intervalo de confiança e o valor-p foram calculados sobre " x="0" y="485" width="820" height="42" />
+      <text id="2230:7337" name="Análise quantitativa: o intervalo de confiança e o valor-p f" x="0" y="485" width="820" height="42" />
       <frame id="2230:7338" name="card" x="0" y="575" width="1160" height="182">
         <text id="2230:7339" name="O que eu não resolvi." x="40" y="36" width="1080" height="22" />
-        <text id="2230:7340" name="A agenda ainda não é real: os dias ocupados estão fixos no c" x="40" y="74" width="1080" height="72" />
+        <text id="2230:7340" name="As imagens de IA ainda não estão identificadas na tela: são " x="40" y="74" width="1080" height="72" />
       </frame>
     </frame>
     <frame id="2230:7341" name="cta" x="120" y="10124" width="1160" height="148">
@@ -2074,7 +2074,7 @@ solo" x="20" y="52" width="192" height="42" />
       </frame>
       <frame id="4016:59" name="quem testou" x="0" y="2069" width="336" height="234">
         <frame id="4016:60" name="QUEM TESTOU" x="0" y="0" width="336" height="21">
-          <text id="4016:61" name="QUEM TESTOU" x="0" y="0" width="336" height="21" />
+          <text id="4016:61" name="QUEM TESTOU · PESQUISA QUALITATIVA" x="0" y="0" width="336" height="21" />
         </frame>
         <frame id="4016:72" name="[mockup] quem testou · duas das seis pessoas por rodada" x="0" y="45" width="336" height="189">
           <rounded-rectangle id="4016:73" name="card - personas - thumbdrop" x="0" y="0" width="336" height="189" />
@@ -2322,7 +2322,7 @@ solo" x="20" y="52" width="192" height="42" />
       </frame>
     </frame>
   </frame>
-  <frame id="2247:1857" name="Case · Nega Nagô v3 · mobile 360" x="-1226" y="0" width="360" height="13449">
+  <frame id="2247:1857" name="Case · Nega Nagô v3 · mobile 360" x="-1226" y="0" width="360" height="13470">
     <frame id="2247:1858" name="topo" x="12" y="0" width="336" height="42">
       <text id="2247:1859" name="Erick · product &amp; design engineer" x="0" y="18" width="240" height="12" />
       <frame id="2247:1860" name="menu" x="0" y="42" width="336" height="21" hidden="true">
@@ -2473,9 +2473,9 @@ e em operação" x="20" y="52" width="296" height="42" />
     </frame>
     <frame id="2247:1973" name="04 · Pesquisa" x="12" y="5370" width="336" height="3031">
       <frame id="2247:1974" name="cabeçalho" x="0" y="32" width="336" height="201">
-        <text id="2247:1975" name="04 · PESQUISA" x="0" y="0" width="336" height="21" />
+        <text id="2247:1975" name="04 · PESQUISA QUALITATIVA" x="0" y="0" width="336" height="21" />
         <text id="2247:1976" name="Quatro pessoas, duas rodadas. A primeira sem cor nenhuma." x="0" y="37" width="336" height="52" />
-        <text id="2247:1977" name="Testei em dois momentos separados de propósito. Primeiro um " x="0" y="105" width="336" height="96" />
+        <text id="2247:1977" name="Testes de usabilidade em dois momentos: primeiro um rascunho" x="0" y="105" width="336" height="96" />
       </frame>
       <frame id="2247:1978" name="as duas rodadas" x="0" y="265" width="336" height="646">
         <frame id="2247:1979" name="rodada 1" x="0" y="0" width="336" height="313">
@@ -2589,7 +2589,7 @@ e em operação" x="20" y="52" width="296" height="42" />
         <text id="2247:2053" name="Amostrei os quatro cantos de cada foto e converti para matiz" x="20" y="79" width="296" height="288" />
       </frame>
     </frame>
-    <frame id="2247:2054" name="07 · Resultado" x="12" y="10588" width="336" height="1078">
+    <frame id="2247:2054" name="07 · Resultado" x="12" y="10588" width="336" height="1099">
       <frame id="2247:2055" name="cabeçalho" x="0" y="32" width="336" height="201">
         <text id="2247:2056" name="07 · RESULTADO" x="0" y="0" width="336" height="21" />
         <text id="2247:2057" name="Dezesseis agendamentos por mês viraram quarenta." x="0" y="37" width="336" height="52" />
@@ -2613,19 +2613,19 @@ e em operação" x="20" y="52" width="296" height="42" />
           <text id="2247:2071" name="telas para sair do catálogo com a mensagem pronta" x="24" y="62" width="114" height="63" />
         </frame>
       </frame>
-      <text id="2247:2072" name="O intervalo de confiança e o valor-p foram calculados sobre " x="0" y="607" width="336" height="84" />
-      <frame id="2247:2073" name="card" x="0" y="723" width="336" height="355">
+      <text id="2247:2072" name="Análise quantitativa: o intervalo de confiança e o valor-p f" x="0" y="607" width="336" height="105" />
+      <frame id="2247:2073" name="card" x="0" y="744" width="336" height="355">
         <text id="2247:2074" name="O que eu não resolvi." x="20" y="36" width="296" height="27" />
-        <text id="2247:2075" name="A agenda ainda não é real: os dias ocupados estão fixos no c" x="20" y="79" width="296" height="240" />
+        <text id="2247:2075" name="As imagens de IA ainda não estão identificadas na tela: são " x="20" y="79" width="296" height="240" />
       </frame>
     </frame>
-    <frame id="2247:2076" name="cta" x="12" y="11666" width="336" height="116">
+    <frame id="2247:2076" name="cta" x="12" y="11687" width="336" height="116">
       <frame id="2247:2077" name="ver o case" x="0" y="32" width="167" height="52">
         <frame id="2247:2078" name="figma-icon 1" x="24" y="14" width="16" height="24" />
         <text id="2247:2085" name="Ver protótipo" x="48" y="14" width="95" height="24" />
       </frame>
     </frame>
-    <frame id="2247:2086" name="Ver mais" x="12" y="11782" width="336" height="885">
+    <frame id="2247:2086" name="Ver mais" x="12" y="11803" width="336" height="885">
       <frame id="2247:2087" name="cabeçalho" x="0" y="32" width="336" height="63">
         <text id="2247:2088" name="08 · MAIS" x="0" y="0" width="336" height="21" />
         <text id="2247:2089" name="Outros projetos" x="0" y="37" width="336" height="26" />
@@ -2651,7 +2651,7 @@ e em operação" x="20" y="52" width="296" height="42" />
         </frame>
       </frame>
     </frame>
-    <frame id="2247:2103" name="Contato" x="12" y="12667" width="336" height="750">
+    <frame id="2247:2103" name="Contato" x="12" y="12688" width="336" height="750">
       <frame id="2247:2104" name="disponível" x="20" y="40" width="296" height="27">
         <ellipse id="2247:2105" name="Ellipse" x="0" y="6.5" width="8" height="8" />
         <text id="2247:2106" name="Disponível para trabalhar" x="17" y="0" width="193" height="21" />

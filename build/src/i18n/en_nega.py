@@ -71,10 +71,10 @@ T = {
     'O fluxo não é o desenho ideal.': 'The flow isn’t the ideal design.',
     'É o desenho que cabe no jeito que ela já trabalha — e cada post-it verde acima é uma decisão que eu não tomaria olhando só para a tela. A restrição mais recente veio depois do lançamento: quem manda na disponibilidade é a agenda do Google que ela já usava no celular. Ela abre e fecha os dias por lá, do jeito dela, e o site segue — sem painel novo e sem ferramenta nova para aprender.':
         'It’s the design that fits the way she already works — and every green sticky note above is a decision I wouldn’t make looking only at the screen. The most recent constraint came after launch: availability is controlled by the Google Calendar she already used on her phone. She opens and closes days there, her way, and the site follows — no new dashboard and no new tool to learn.',
-    '04 · PESQUISA': '04 · RESEARCH',
+    '04 · PESQUISA QUALITATIVA': '04 · QUALITATIVE RESEARCH',
     'Quatro pessoas, duas rodadas. A primeira sem cor nenhuma.': 'Four people, two rounds. The first with no color at all.',
-    'Testei em dois momentos: primeiro um rascunho em cinza, só o caminho; depois o protótipo inteiro. Em cinza, o elogio não tem para onde fugir.':
-        'I tested at two moments: first a grayscale draft, just the path; then the full prototype. In grayscale, praise has nowhere to hide.',
+    'Testes de usabilidade em dois momentos: primeiro um rascunho em cinza, só o caminho; depois o protótipo inteiro. Em cinza, o elogio não tem para onde fugir.':
+        'Usability tests at two moments: first a grayscale draft, just the path; then the full prototype. In grayscale, praise has nowhere to hide.',
     'rodada 1 · o rascunho em cinza': 'round 1 · the grayscale draft',
     'Dá para chegar ao fim? A informação aparece na hora que a pessoa precisa dela? Sem identidade visual, o que sobra na tela é a estrutura — e é ela que está sendo testada.':
         'Can you get to the end? Does the information show up when the person needs it? Without visual identity, what’s left on screen is the structure — and that’s what is being tested.',
@@ -135,10 +135,10 @@ T = {
     '2,50×': '2.50×',
     'razão de taxas · IC 95% 1,37–4,78 · p = 0,0018': 'rate ratio · 95% CI 1.37–4.78 · p = 0.0018',
     'telas para sair do catálogo com a mensagem pronta': 'screens from the catalog to a ready-to-send message',
-    'O intervalo de confiança e o valor-p foram calculados sobre os agendamentos observados antes e depois do lançamento, por binomial condicional exata. Não é modelo, é a agenda dela.':
-        'The confidence interval and p-value were calculated from the bookings observed before and after launch, using an exact conditional binomial test. It’s not a model, it’s her calendar.',
+    'Análise quantitativa: o intervalo de confiança e o valor-p foram calculados sobre os agendamentos observados antes e depois do lançamento, por binomial condicional exata. Não é modelo, é a agenda dela.':
+        'Quantitative analysis: the confidence interval and p-value were calculated from the bookings observed before and after launch, using an exact conditional binomial test. It’s not a model, it’s her calendar.',
     'O que eu não resolvi.': 'What I didn’t solve.',
-    'As imagens de IA ainda não estão identificadas na tela: são renders de referência, não portfólio da Mayara, e está escrito aqui mas precisa estar escrito no produto. Quatro pessoas acham o problema grande, não o de cauda — com o fluxo em operação, dá para observar uso real em vez de sessão marcada, e é esse o próximo passo da pesquisa.':
-        'The AI images still aren’t labeled on screen: they are reference renders, not Mayara’s portfolio, and it’s written here but needs to be written in the product. Four people find the big problem, not the long tail — with the flow in operation, it’s possible to observe real use instead of scheduled sessions, and that’s the next step of the research.',
+    'As imagens de IA ainda não estão identificadas na tela: são renders de referência, não portfólio da Mayara, e está escrito aqui mas precisa estar escrito no produto. Quatro pessoas acham o problema grande, não o de cauda. Com o fluxo em operação, o próximo passo é uma pesquisa contextual: observar o uso real, em vez de sessão marcada.':
+        'The AI images still aren’t labeled on screen: they are reference renders, not Mayara’s portfolio, and it’s written here but needs to be written in the product. Four people find the big problem, not the long tail. With the flow in operation, the next step is contextual research: observing real use instead of scheduled sessions.',
     '08 · MAIS': '08 · MORE',
 }

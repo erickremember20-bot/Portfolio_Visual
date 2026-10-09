@@ -1,15 +1,15 @@
-const imgCardHeroThumbdrop3 = "https://www.figma.com/api/mcp/asset/a779bc13-557d-4ea7-80fd-ba3b51d50b55.png";
-const imgCardPersonasThumbdrop = "https://www.figma.com/api/mcp/asset/9cce2b3d-0d92-4ab4-83cf-cccf9277f8ef.png";
-const imgCardV1V2Thumbdrop = "https://www.figma.com/api/mcp/asset/e1240b02-6043-4f7e-a11d-200f13ecd21f.png";
-const imgCard4Estados1 = "https://www.figma.com/api/mcp/asset/70af0b14-c347-4478-9e4d-dff282369835.png";
-const imgCardComportamentos1 = "https://www.figma.com/api/mcp/asset/822d446a-5122-448d-8729-d327a556cc5b.png";
-const imgCardBiblioteca1 = "https://www.figma.com/api/mcp/asset/b04af8a3-71d2-444a-848b-6e88b2249a9b.png";
-const imgCardThumbs1 = "https://www.figma.com/api/mcp/asset/58a91788-6aa1-43e7-8f31-5d2ea9b0fdb8.png";
-const imgFigmaIcon1 = "https://www.figma.com/api/mcp/asset/3f046234-1c16-4563-acdc-84aff2d8a155.svg";
-const imgEllipse = "https://www.figma.com/api/mcp/asset/bb9b2b0a-672e-4b6e-b30a-4d5dfd9a8c5c.svg";
-const imgCopy = "https://www.figma.com/api/mcp/asset/4e9e84df-a0c0-4fac-b6a4-4da1ed9868ba.svg";
-const imgReadCvLogo = "https://www.figma.com/api/mcp/asset/e63ee070-d60b-44fa-8d13-cb11c7b3086c.svg";
-const imgLinkedInIcon1 = "https://www.figma.com/api/mcp/asset/eb962586-579d-4452-afda-2ce938e4beee.svg";
+const imgCardHeroThumbdrop3 = "https://www.figma.com/api/mcp/asset/99e01bae-a03c-4a3b-9166-6dd825a38501.png";
+const imgCardPersonasThumbdrop = "https://www.figma.com/api/mcp/asset/3921fe83-e63b-41fe-a7af-fe04e7130541.png";
+const imgCardV1V2Thumbdrop = "https://www.figma.com/api/mcp/asset/db121c99-efdc-4bf8-b67b-dc1000ef332e.png";
+const imgCard4Estados1 = "https://www.figma.com/api/mcp/asset/f80df578-40bb-4920-ba87-e4fc12b7cf8c.png";
+const imgCardComportamentos1 = "https://www.figma.com/api/mcp/asset/c1be90f7-294f-42fc-a314-f6d53d681727.png";
+const imgCardBiblioteca1 = "https://www.figma.com/api/mcp/asset/e602f3e4-2fa0-4194-a94e-803754258358.png";
+const imgCardThumbs1 = "https://www.figma.com/api/mcp/asset/75423e0c-119b-469b-9bcd-ec50dd539856.png";
+const imgFigmaIcon1 = "https://www.figma.com/api/mcp/asset/92459d5f-0c03-48b5-a5e7-2a78ce3cea1c.svg";
+const imgEllipse = "https://www.figma.com/api/mcp/asset/a7610fe9-4245-467e-b8df-0f82405c17ff.svg";
+const imgCopy = "https://www.figma.com/api/mcp/asset/5d5c8a5a-938f-40f9-98e5-4ec612892a14.svg";
+const imgReadCvLogo = "https://www.figma.com/api/mcp/asset/46732c1b-5988-4fff-9b85-f88717f82fc6.svg";
+const imgLinkedInIcon1 = "https://www.figma.com/api/mcp/asset/620ba831-9d4c-4295-995e-5e12ff4e6ebb.svg";
 
 type SeletorDeIdiomaProps = {
   className?: string;
@@ -250,7 +250,7 @@ export default function CaseThumbDropV3Desktop1400() {
         <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-full" data-node-id="4016:42" data-name="quem testou">
           <div className="content-stretch flex items-center justify-center relative shrink-0 w-full" data-node-id="4016:43" data-name="QUEM TESTOU">
             <p className="[word-break:break-word] flex-[1_0_0] font-['Sofia_Sans:Bold'] font-bold leading-[1.5] min-w-px relative text-[#675d54] text-[14px] tracking-[0.28px] uppercase" data-node-id="4016:44">
-              QUEM TESTOU
+              QUEM TESTOU · PESQUISA QUALITATIVA
             </p>
           </div>
           <div className="h-[652.5px] overflow-clip relative rounded-[12px] shrink-0 w-full" data-node-id="4016:55" data-name="[mockup] quem testou · duas das seis pessoas por rodada">
