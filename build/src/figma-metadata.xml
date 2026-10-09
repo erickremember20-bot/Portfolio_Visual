@@ -1,5 +1,5 @@
 <canvas id="2230:6625" name="V3 · colors" x="0" y="0" width="0" height="0">
-  <frame id="2230:6626" name="Case · ThumbDrop v3 · desktop 1400" x="-4577" y="0" width="1400" height="10761">
+  <frame id="2230:6626" name="Case · ThumbDrop v3 · desktop 1400" x="-4577" y="0" width="1400" height="11903">
     <frame id="2230:6627" name="topo" x="120" y="0" width="1160" height="61">
       <text id="2230:6628" name="Erick · product &amp; design engineer" x="0" y="18" width="271" height="24" />
       <frame id="2264:1596" name="navegação" x="445" y="16" width="715" height="28">
@@ -77,7 +77,7 @@
         </frame>
       </frame>
     </frame>
-    <frame id="2230:6682" name="02 · A/B" x="120" y="1686" width="1160" height="1481">
+    <frame id="2230:6682" name="02 · A/B" x="120" y="1686" width="1160" height="2623">
       <frame id="2230:6683" name="cabeçalho" x="0" y="48" width="1160" height="183">
         <text id="2230:6684" name="02 · O TESTE A/B" x="0" y="16" width="1160" height="21" />
         <text id="2230:6685" name="Duas versões, a mesma tarefa." x="0" y="53" width="900" height="44" />
@@ -111,27 +111,24 @@
           <text id="2230:6708" name="Três minutos, thumb publicada no canal." x="0" y="332" width="568" height="42" />
         </frame>
       </frame>
-      <frame id="2230:6709" name="Frame 105" x="0" y="1180" width="1160" height="301">
+      <frame id="4016:42" name="quem testou" x="0" y="1180" width="1160" height="697.5">
+        <frame id="4016:43" name="QUEM TESTOU" x="0" y="0" width="1160" height="21">
+          <text id="4016:44" name="QUEM TESTOU" x="0" y="0" width="1160" height="21" />
+        </frame>
+        <frame id="4016:55" name="[mockup] quem testou · duas das seis pessoas por rodada" x="0" y="45" width="1160" height="652.5">
+          <rounded-rectangle id="4016:56" name="card - personas - thumbdrop" x="0" y="0" width="1160" height="652.5" />
+        </frame>
+      </frame>
+      <frame id="2230:6709" name="o que a segunda versão resolveu" x="0" y="1925.5" width="1160" height="697.5">
         <frame id="2230:6710" name="O QUE A SEGUNDA VERSÃO RESOLVEU" x="0" y="0" width="1160" height="21">
           <text id="2230:6711" name="O QUE A SEGUNDA VERSÃO RESOLVEU" x="0" y="0" width="1160" height="21" />
         </frame>
-        <frame id="2230:6712" name="o que mudou" x="0" y="45" width="1160" height="256">
-          <frame id="2230:6713" name="dbox" x="0" y="0" width="354.6666564941406" height="256">
-            <text id="2230:6714" name="Fluxo guiado em 4 paradas" x="24" y="36" width="306.6666564941406" height="24" />
-            <text id="2230:6715" name="A V1 mostrava tudo de uma vez. A final só revela a ferrament" x="24" y="76" width="300" height="72" />
-          </frame>
-          <frame id="2230:6716" name="dbox" x="402.6666564941406" y="0" width="354.66668701171875" height="256">
-            <text id="2230:6717" name="O custo aparece antes de custar" x="24" y="36" width="306.66668701171875" height="24" />
-            <text id="2230:6718" name="Todo gasto de IA passa por uma confirmação que mostra o preç" x="24" y="76" width="300" height="96" />
-          </frame>
-          <frame id="2230:6719" name="dbox" x="805.3333740234375" y="0" width="354.66668701171875" height="256">
-            <text id="2230:6720" name="Nada se perde ao voltar" x="24" y="36" width="306.66668701171875" height="24" />
-            <text id="2230:6721" name="Qualquer parada já visitada é clicável. Reenquadrar, mover e" x="24" y="76" width="300" height="144" />
-          </frame>
+        <frame id="4016:57" name="[mockup] V1 → V2 · o que travava e o que mudou" x="0" y="45" width="1160" height="652.5">
+          <rounded-rectangle id="4016:58" name="card - v1 v2 - thumbdrop" x="0" y="0" width="1160" height="652.5" />
         </frame>
       </frame>
     </frame>
-    <frame id="2230:6722" name="03 · Decisões" x="120" y="3167" width="1160" height="1426">
+    <frame id="2230:6722" name="03 · Decisões" x="120" y="4309" width="1160" height="1426">
       <frame id="2230:6723" name="cabeçalho" x="0" y="48" width="1160" height="151">
         <text id="2230:6724" name="03 · AS DECISÕES QUE SUSTENTAM O FLUXO" x="0" y="0" width="1160" height="21" />
         <text id="2230:6725" name="Quatro paradas, e uma regra de cor que não se quebra." x="0" y="37" width="900" height="44" />
@@ -169,7 +166,7 @@
         <text id="2230:6748" name="Reenquadrar, mover, trocar a cor do texto e refazer a moldur" x="40" y="74" width="1080" height="48" />
       </frame>
     </frame>
-    <frame id="2230:6749" name="04 · Craft" x="120" y="4593" width="1160" height="1199">
+    <frame id="2230:6749" name="04 · Craft" x="120" y="5735" width="1160" height="1199">
       <frame id="2230:6750" name="cabeçalho" x="0" y="48" width="1160" height="124">
         <text id="2230:6751" name="04 · CRAFT" x="0" y="0" width="1160" height="21" />
         <text id="2230:6752" name="O que faz parecer um editor de verdade." x="0" y="37" width="900" height="44" />
@@ -199,7 +196,7 @@
         <text id="2230:6769" name="Quando o conteúdo de uma parada não cabia, a saída fácil era" x="40" y="74" width="1080" height="48" />
       </frame>
     </frame>
-    <frame id="2230:6770" name="05 · Sistema" x="120" y="5792" width="1160" height="1172">
+    <frame id="2230:6770" name="05 · Sistema" x="120" y="6934" width="1160" height="1172">
       <frame id="2230:6771" name="cabeçalho" x="0" y="48" width="1160" height="195">
         <text id="2230:6772" name="05 · O SISTEMA" x="0" y="0" width="1160" height="21" />
         <text id="2230:6773" name="Nenhum hex escrito à mão, em nenhum arquivo." x="0" y="37" width="900" height="88" />
@@ -231,7 +228,7 @@
         <rounded-rectangle id="2230:6792" name="card - biblioteca 1" x="0" y="0" width="1160" height="460" />
       </frame>
     </frame>
-    <frame id="2230:6793" name="06 · Hoje" x="120" y="6964" width="1160" height="1674">
+    <frame id="2230:6793" name="06 · Hoje" x="120" y="8106" width="1160" height="1674">
       <frame id="2230:6794" name="cabeçalho" x="0" y="48" width="1160" height="178">
         <text id="2230:6795" name="06 · ONDE ESTÁ HOJE" x="0" y="0" width="1160" height="21" />
         <text id="2230:6796" name="Está em uso, e o custo não é o problema." x="0" y="37" width="900" height="44" />
@@ -280,7 +277,7 @@
         <text id="2230:6828" name="Cada filtro e cada recorte passam por uma API paga. No volum" x="40" y="74" width="1080" height="120" />
       </frame>
     </frame>
-    <frame id="2230:6829" name="07 · Em aberto" x="120" y="8638" width="1160" height="593">
+    <frame id="2230:6829" name="07 · Em aberto" x="120" y="9780" width="1160" height="593">
       <frame id="2230:6830" name="cabeçalho" x="0" y="48" width="1160" height="151">
         <text id="2230:6831" name="07 · EM ABERTO" x="0" y="0" width="1160" height="21" />
         <text id="2230:6832" name="O que eu não resolvi." x="0" y="37" width="900" height="44" />
@@ -305,13 +302,13 @@
         </frame>
       </frame>
     </frame>
-    <frame id="2230:6847" name="cta" x="120" y="9231" width="1160" height="148">
+    <frame id="2230:6847" name="cta" x="120" y="10373" width="1160" height="148">
       <frame id="2230:6848" name="ver o case" x="0" y="48" width="167" height="52">
         <frame id="2230:6849" name="figma-icon 1" x="24" y="14" width="16" height="24" />
         <text id="2230:6856" name="Ver protótipo" x="48" y="14" width="95" height="24" />
       </frame>
     </frame>
-    <frame id="2230:6857" name="Ver mais" x="120" y="9379" width="1160" height="677">
+    <frame id="2230:6857" name="Ver mais" x="120" y="10521" width="1160" height="677">
       <frame id="2230:6858" name="cabeçalho" x="0" y="48" width="1160" height="81">
         <text id="2230:6859" name="08 · MAIS" x="0" y="0" width="60" height="21" />
         <text id="2230:6860" name="Outros projetos" x="0" y="37" width="900" height="44" />
@@ -337,7 +334,7 @@
         </frame>
       </frame>
     </frame>
-    <frame id="2230:6874" name="Contato" x="120" y="10056" width="1160" height="585">
+    <frame id="2230:6874" name="Contato" x="120" y="11198" width="1160" height="585">
       <frame id="2230:6875" name="disponível" x="56" y="40" width="1048" height="27">
         <ellipse id="2230:6876" name="Ellipse" x="0" y="6.5" width="8" height="8" />
         <text id="2230:6877" name="Disponível para trabalhar" x="17" y="0" width="193" height="21" />
@@ -672,7 +669,7 @@ Playw" x="20" y="52" width="192" height="42" />
       </frame>
     </frame>
   </frame>
-  <frame id="2230:7122" name="Case · Nega Nagô v3 · desktop 1400" x="-2686" y="0" width="1400" height="10517">
+  <frame id="2230:7122" name="Case · Nega Nagô v3 · desktop 1400" x="-2686" y="0" width="1400" height="11654">
     <frame id="2230:7123" name="topo" x="120" y="0" width="1160" height="61">
       <text id="2230:7124" name="Erick · product &amp; design engineer" x="0" y="18" width="271" height="24" />
       <frame id="2264:1608" name="navegação" x="395" y="16" width="765" height="28">
@@ -804,45 +801,26 @@ e em operação" x="20" y="52" width="192" height="42" />
         </frame>
       </frame>
     </frame>
-    <frame id="2230:7211" name="03 · Restrições" x="120" y="3296" width="1160" height="1342">
+    <frame id="2230:7211" name="03 · Restrições" x="120" y="3296" width="1160" height="1741.5">
       <frame id="2230:7212" name="cabeçalho" x="0" y="48" width="1160" height="195">
         <text id="2230:7213" name="03 · RESTRIÇÕES" x="0" y="0" width="1160" height="21" />
         <text id="2230:7214" name="Quase toda decisão de tela veio de uma restrição do negócio." x="0" y="37" width="900" height="88" />
         <text id="2230:7215" name="Nenhuma dessas escolhas saiu de intuição de UX. Saíram de co" x="0" y="141" width="820" height="54" />
       </frame>
-      <frame id="2230:7216" name="[mockup anotado] cinco restrições do negócio, na tela de agendamento" x="0" y="291" width="1160" height="821">
+      <frame id="2230:7216" name="[mockup anotado] cinco restrições do negócio, na tela de agendamento" x="0" y="291" width="1160" height="1220.5">
         <frame id="2230:7217" name="[mockup] cinco restrições do negócio, na tela de agendamento" x="0" y="0" width="1160" height="520">
           <rounded-rectangle id="2230:7218" name="card - restricoes 2" x="0" y="0" width="1160" height="520" />
         </frame>
-        <frame id="2230:7219" name="anotações" x="0" y="568" width="1160" height="253">
-          <frame id="2230:7220" name="anot 1" x="0" y="0" width="212.8000030517578" height="253">
-            <text id="2230:7221" name="01" x="24" y="36" width="164.8000030517578" height="21" />
-            <text id="2230:7222" name="Ela compra o material antes. Por isso o " x="24" y="73" width="164.8000030517578" height="144" />
-          </frame>
-          <frame id="2230:7223" name="anot 2" x="236.8000030517578" y="0" width="212.8000030517578" height="253">
-            <text id="2230:7224" name="02" x="24" y="36" width="164.8000030517578" height="21" />
-            <text id="2230:7225" name="A cliente já está no WhatsApp. O fluxo t" x="24" y="73" width="164.8000030517578" height="144" />
-          </frame>
-          <frame id="2230:7226" name="anot 3" x="473.6000061035156" y="0" width="212.8000030517578" height="253">
-            <text id="2230:7227" name="03" x="24" y="36" width="164.8000030517578" height="21" />
-            <text id="2230:7228" name="O adicional custa diferente por família " x="24" y="73" width="164.8000030517578" height="144" />
-          </frame>
-          <frame id="2230:7229" name="anot 4" x="710.4000244140625" y="0" width="212.80001831054688" height="253">
-            <text id="2230:7230" name="04" x="24" y="36" width="164.80001831054688" height="21" />
-            <text id="2230:7231" name="Ela atende no estúdio e a domicílio. O b" x="24" y="73" width="164.80001831054688" height="144" />
-          </frame>
-          <frame id="2230:7232" name="anot 5" x="947.2000732421875" y="0" width="212.80001831054688" height="253">
-            <text id="2230:7233" name="05" x="24" y="36" width="164.80001831054688" height="21" />
-            <text id="2230:7234" name="Sem gateway no piloto. O site calcula e " x="24" y="73" width="164.80001831054688" height="144" />
-          </frame>
+        <frame id="4016:76" name="[mockup] restrição → decisão · o quadro das cinco restrições" x="0" y="568" width="1160" height="652.5">
+          <rounded-rectangle id="4016:77" name="card - restricao decisao - nega" x="0" y="0" width="1160" height="652.5" />
         </frame>
       </frame>
-      <frame id="2230:7235" name="card" x="0" y="1160" width="1160" height="182">
+      <frame id="2230:7235" name="card" x="0" y="1559.5" width="1160" height="182">
         <text id="2230:7236" name="A decisão mais cara do projeto: o painel nunca rola." x="40" y="36" width="1080" height="22" />
         <text id="2230:7237" name="Quando o conteúdo de uma parada não cabia, a saída fácil era" x="40" y="74" width="1080" height="72" />
       </frame>
     </frame>
-    <frame id="2230:7238" name="04 · Pesquisa" x="120" y="4638" width="1160" height="1484">
+    <frame id="2230:7238" name="04 · Pesquisa" x="120" y="5037.5" width="1160" height="2221.5">
       <frame id="2230:7239" name="cabeçalho" x="0" y="48" width="1160" height="195">
         <text id="2230:7240" name="04 · PESQUISA" x="0" y="0" width="1160" height="21" />
         <text id="2230:7241" name="Quatro pessoas, duas rodadas. A primeira sem cor nenhuma." x="0" y="37" width="900" height="88" />
@@ -884,12 +862,18 @@ e em operação" x="20" y="52" width="192" height="42" />
           <text id="2230:7268" name="Chega sem referência nenhuma — nem de preço, nem de vocabulá" x="24" y="113" width="230" height="96" />
         </frame>
       </frame>
-      <frame id="2230:7269" name="card" x="0" y="1050" width="1160" height="219">
+      <frame id="4016:78" name="personas" x="0" y="1050" width="1160" height="689.5">
+        <frame id="4016:79" name="[mockup] personas · a cliente recorrente e quem nunca tinha contratado" x="0" y="0" width="1160" height="652.5">
+          <rounded-rectangle id="4016:80" name="card - personas - nega" x="0" y="0" width="1160" height="652.5" />
+        </frame>
+        <text id="4016:81" name="De perto, duas das quatro pessoas: a cliente recorrente (01)" x="0" y="668.5" width="1160" height="21" />
+      </frame>
+      <frame id="2230:7269" name="card" x="0" y="1787.5" width="1160" height="219">
         <text id="2230:7270" name="O ELOGIO QUE MAIS SE REPETIU" x="40" y="36" width="1080" height="21" />
         <text id="2230:7271" name="Não foi sobre beleza. Foi sobre saber quanto ia custar." x="40" y="73" width="1080" height="22" />
         <text id="2230:7272" name="A conta recalcula a cada toque: muda o tamanho, muda o adici" x="40" y="111" width="1080" height="72" />
       </frame>
-      <frame id="2230:7273" name="resultados da pesquisa" x="0" y="1317" width="1160" height="167">
+      <frame id="2230:7273" name="resultados da pesquisa" x="0" y="2054.5" width="1160" height="167">
         <frame id="2230:7274" name="nbox" x="0" y="0" width="281" height="167">
           <text id="2230:7275" name="4/4" x="24" y="24" width="233" height="44" />
           <text id="2230:7276" name="chegaram ao fim do agendamento sem que eu explicasse como fu" x="24" y="80" width="233" height="63" />
@@ -908,7 +892,7 @@ e em operação" x="20" y="52" width="192" height="42" />
         </frame>
       </frame>
     </frame>
-    <frame id="2230:7286" name="05 · Sistema" x="120" y="6122" width="1160" height="1259">
+    <frame id="2230:7286" name="05 · Sistema" x="120" y="7259" width="1160" height="1259">
       <frame id="2230:7287" name="cabeçalho" x="0" y="48" width="1160" height="195">
         <text id="2230:7288" name="05 · SISTEMA E ENGENHARIA" x="0" y="0" width="1160" height="21" />
         <text id="2230:7289" name="Um sistema pequeno, documentado inteiro — e conferido por me" x="0" y="37" width="900" height="88" />
@@ -940,7 +924,7 @@ e em operação" x="20" y="52" width="192" height="42" />
         <text id="2230:7308" name="Uma suíte em Playwright abre o protótipo nos dois breakpoint" x="40" y="74" width="1080" height="96" />
       </frame>
     </frame>
-    <frame id="2230:7309" name="06 · Imagens" x="120" y="7381" width="1160" height="849">
+    <frame id="2230:7309" name="06 · Imagens" x="120" y="8518" width="1160" height="849">
       <frame id="2230:7310" name="cabeçalho" x="0" y="48" width="1160" height="151">
         <text id="2230:7311" name="06 · CATÁLOGO DE IMAGENS" x="0" y="0" width="1160" height="21" />
         <text id="2230:7312" name="Nenhuma foto existia. Dirigi e gerei as treze." x="0" y="37" width="900" height="44" />
@@ -954,7 +938,7 @@ e em operação" x="20" y="52" width="192" height="42" />
         <text id="2230:7318" name="Amostrei os quatro cantos de cada foto e converti para matiz" x="40" y="74" width="1080" height="96" />
       </frame>
     </frame>
-    <frame id="2230:7319" name="07 · Resultado" x="120" y="8230" width="1160" height="757">
+    <frame id="2230:7319" name="07 · Resultado" x="120" y="9367" width="1160" height="757">
       <frame id="2230:7320" name="cabeçalho" x="0" y="48" width="1160" height="195">
         <text id="2230:7321" name="07 · RESULTADO" x="0" y="0" width="1160" height="21" />
         <text id="2230:7322" name="Dezesseis agendamentos por mês viraram quarenta." x="0" y="37" width="900" height="88" />
@@ -984,13 +968,13 @@ e em operação" x="20" y="52" width="192" height="42" />
         <text id="2230:7340" name="A agenda ainda não é real: os dias ocupados estão fixos no c" x="40" y="74" width="1080" height="72" />
       </frame>
     </frame>
-    <frame id="2230:7341" name="cta" x="120" y="8987" width="1160" height="148">
+    <frame id="2230:7341" name="cta" x="120" y="10124" width="1160" height="148">
       <frame id="2230:7342" name="ver o case" x="0" y="48" width="167" height="52">
         <frame id="2230:7343" name="figma-icon 1" x="24" y="14" width="16" height="24" />
         <text id="2230:7350" name="Ver protótipo" x="48" y="14" width="95" height="24" />
       </frame>
     </frame>
-    <frame id="2230:7351" name="Ver mais" x="120" y="9135" width="1160" height="677">
+    <frame id="2230:7351" name="Ver mais" x="120" y="10272" width="1160" height="677">
       <frame id="2230:7352" name="cabeçalho" x="0" y="48" width="1160" height="81">
         <text id="2230:7353" name="08 · MAIS" x="0" y="0" width="60" height="21" />
         <text id="2230:7354" name="Outros projetos" x="0" y="37" width="900" height="44" />
@@ -1016,7 +1000,7 @@ e em operação" x="20" y="52" width="192" height="42" />
         </frame>
       </frame>
     </frame>
-    <frame id="2230:7368" name="Contato" x="120" y="9812" width="1160" height="585">
+    <frame id="2230:7368" name="Contato" x="120" y="10949" width="1160" height="585">
       <frame id="2230:7369" name="disponível" x="56" y="40" width="1048" height="27">
         <ellipse id="2230:7370" name="Ellipse" x="0" y="6.5" width="8" height="8" />
         <text id="2230:7371" name="Disponível para trabalhar" x="17" y="0" width="193" height="21" />
@@ -1679,7 +1663,7 @@ solo" x="20" y="52" width="192" height="42" />
     </frame>
     <frame id="2230:7877" name="respiro" x="120" y="6554" width="1160" height="120" />
   </frame>
-  <frame id="2246:1853" name="Home · mobile 360" x="-5008" y="0" width="360" height="9757">
+  <frame id="2246:1853" name="Home · mobile 360" x="-5008" y="0" width="360" height="9362">
     <frame id="2246:1854" name="topo" x="12" y="0" width="336" height="107">
       <frame id="2264:1626" name="identidade" x="0" y="18" width="195" height="71">
         <text id="2246:1855" name="Product &amp; design engineer" x="0" y="0" width="195" height="21" />
@@ -1718,16 +1702,7 @@ solo" x="20" y="52" width="192" height="42" />
         <text id="2246:1880" name="Treze anos de design. Comecei em direção de arte, passei por marca, campanha, produto e design system — e hoje faço as cinco na mesma entrega, com IA no meio do processo e o código saindo junto. Os quatro cases abaixo estão documentados de ponta a ponta, inclusive onde a IA não decidiu nada." x="0" y="228" width="336" height="168" />
       </frame>
     </frame>
-    <frame id="2246:1881" name="Marcas" x="12" y="1043" width="336" height="123">
-      <frame id="2246:1882" name="Frame 8" x="0" y="36" width="336" height="51">
-        <rounded-rectangle id="2246:1883" name="logo_kabum 2" x="0" y="0" width="84" height="20" />
-        <rounded-rectangle id="2246:1884" name="logo_netshoes 2" x="96" y="3.5" width="84" height="13" />
-        <rounded-rectangle id="2246:1885" name="logo_cabaltech 1" x="192" y="1.0681819915771484" width="84" height="17.863636016845703" />
-        <rounded-rectangle id="2246:1886" name="logo_motorola 4" x="0" y="32" width="84" height="19" />
-        <rounded-rectangle id="2246:1887" name="logo_magalu 2" x="96" y="32.5" width="84" height="18" />
-      </frame>
-    </frame>
-    <frame id="2246:1888" name="disciplinas" x="12" y="1166" width="336" height="549">
+    <frame id="2246:1888" name="disciplinas" x="12" y="1043" width="336" height="549">
       <frame id="2246:1889" name="item" x="0" y="0" width="336" height="114">
         <text id="2246:1890" name="Marca" x="20" y="20" width="296" height="24" />
         <text id="2246:1891" name="Identidade, brandbook e sistema visual" x="20" y="52" width="296" height="42" />
@@ -1749,11 +1724,16 @@ solo" x="20" y="52" width="192" height="42" />
         <text id="2246:1903" name="HTML, CSS e JS escritos com IA e testados" x="20" y="52" width="296" height="42" />
       </frame>
     </frame>
-    <frame id="2246:1904" name="respiro" x="12" y="1715" width="336" height="0.00009999999747378752" />
-    <frame id="2246:1905" name="Projetos" x="12" y="1715.0001220703125" width="336" height="2407">
+    <frame id="2246:1904" name="respiro" x="12" y="1592" width="336" height="0.00009999999747378752" />
+    <frame id="2246:1905" name="Projetos" x="12" y="1592.0001220703125" width="336" height="2407">
       <frame id="2246:1906" name="Frame 17" x="0" y="32" width="336" height="556">
         <frame id="2246:1907" name="projeto 01" x="0" y="0" width="336" height="523">
-          <frame id="2246:1908" name="título + métrica" x="0" y="0" width="336" height="314">
+          <frame id="2246:1927" name="img" x="0" y="0" width="336" height="189">
+            <frame id="2246:1928" name="image" x="0" y="0" width="336" height="189">
+              <rounded-rectangle id="2246:1929" name="capa_thumbdrop 1" x="0" y="0" width="336" height="189" />
+            </frame>
+          </frame>
+          <frame id="2246:1908" name="título + métrica" x="0" y="209" width="336" height="314">
             <frame id="2246:1909" name="texto" x="0" y="0" width="336" height="133">
               <text id="2246:1910" name="ThumbDrop" x="0" y="0" width="336" height="27" />
               <text id="2246:1911" name="Ferramenta interna que tirou a thumbnail da fila do time de design. Duas versões testadas com seis pessoas cada, IA dentro do editor, e o custo por thumb visível antes de cada clique." x="0" y="37" width="336" height="96" />
@@ -1782,16 +1762,16 @@ solo" x="20" y="52" width="192" height="42" />
               </frame>
             </frame>
           </frame>
-          <frame id="2246:1927" name="img" x="0" y="334" width="336" height="189">
-            <frame id="2246:1928" name="image" x="0" y="0" width="336" height="189">
-              <rounded-rectangle id="2246:1929" name="capa_thumbdrop 1" x="0" y="0" width="336" height="189" />
-            </frame>
-          </frame>
         </frame>
       </frame>
       <frame id="2246:1930" name="Frame 20" x="0" y="620" width="336" height="580">
         <frame id="2246:1931" name="projeto 01" x="0" y="0" width="336" height="547">
-          <frame id="2246:1932" name="título + métrica" x="0" y="0" width="336" height="338">
+          <frame id="2246:1951" name="img" x="0" y="0" width="336" height="189">
+            <frame id="2246:1952" name="image" x="0" y="0" width="336" height="189">
+              <rounded-rectangle id="2246:1953" name="capa_nega_nago 4" x="0" y="0" width="336" height="189" />
+            </frame>
+          </frame>
+          <frame id="2246:1932" name="título + métrica" x="0" y="209" width="336" height="338">
             <frame id="2246:1933" name="texto" x="0" y="0" width="336" height="157">
               <text id="2246:1934" name="Nega Nagô" x="0" y="0" width="336" height="27" />
               <text id="2246:1935" name="O catálogo de uma trancista virou agendamento sem sair do WhatsApp. Pesquisa, design system e front-end — no ar em neganago.com, com a disponibilidade saindo da agenda dela." x="0" y="37" width="336" height="120" />
@@ -1820,16 +1800,16 @@ solo" x="20" y="52" width="192" height="42" />
               </frame>
             </frame>
           </frame>
-          <frame id="2246:1951" name="img" x="0" y="358" width="336" height="189">
-            <frame id="2246:1952" name="image" x="0" y="0" width="336" height="189">
-              <rounded-rectangle id="2246:1953" name="capa_nega_nago 4" x="0" y="0" width="336" height="189" />
-            </frame>
-          </frame>
         </frame>
       </frame>
       <frame id="2246:1954" name="Frame 21" x="0" y="1232" width="336" height="556">
         <frame id="2246:1955" name="projeto 01" x="0" y="0" width="336" height="523">
-          <frame id="2246:1956" name="título + métrica" x="0" y="0" width="336" height="314">
+          <frame id="2246:1975" name="img" x="0" y="0" width="336" height="189">
+            <frame id="2246:1976" name="image" x="0" y="0" width="336" height="189">
+              <rounded-rectangle id="2246:1977" name="capa_ct_em_campo 1" x="0" y="0" width="336" height="189" />
+            </frame>
+          </frame>
+          <frame id="2246:1956" name="título + métrica" x="0" y="209" width="336" height="314">
             <frame id="2246:1957" name="texto" x="0" y="0" width="336" height="133">
               <text id="2246:1958" name="CT em Campo · Canaltech × Netshoes" x="0" y="0" width="336" height="27" />
               <text id="2246:1959" name="Uma ativação de Copa que não cabia no template do portal. Superfície dedicada, brandbook, motion e código — sem anúncio, recomendação ou concorrente dividindo a tela." x="0" y="37" width="336" height="96" />
@@ -1858,16 +1838,16 @@ solo" x="20" y="52" width="192" height="42" />
               </frame>
             </frame>
           </frame>
-          <frame id="2246:1975" name="img" x="0" y="334" width="336" height="189">
-            <frame id="2246:1976" name="image" x="0" y="0" width="336" height="189">
-              <rounded-rectangle id="2246:1977" name="capa_ct_em_campo 1" x="0" y="0" width="336" height="189" />
-            </frame>
-          </frame>
         </frame>
       </frame>
       <frame id="2246:1978" name="Frame 22" x="0" y="1820" width="336" height="555">
         <frame id="2246:1979" name="projeto 01" x="0" y="0" width="336" height="523">
-          <frame id="2246:1980" name="título + métrica" x="0" y="0" width="336" height="314">
+          <frame id="2246:1999" name="img" x="0" y="0" width="336" height="189">
+            <frame id="2246:2000" name="image" x="0" y="0" width="336" height="189">
+              <rounded-rectangle id="2246:2001" name="capa_ct_links 1" x="0" y="0" width="336" height="189" />
+            </frame>
+          </frame>
+          <frame id="2246:1980" name="título + métrica" x="0" y="209" width="336" height="314">
             <frame id="2246:1981" name="texto" x="0" y="0" width="336" height="133">
               <text id="2246:1982" name="Canaltech · Hub de links" x="0" y="0" width="336" height="27" />
               <text id="2246:1983" name="A página de links deixou de ser alugada e passou a medir a si mesma. Design system, acessibilidade, consentimento e telemetria dentro de um HTML único." x="0" y="37" width="336" height="96" />
@@ -1896,15 +1876,10 @@ solo" x="20" y="52" width="192" height="42" />
               </frame>
             </frame>
           </frame>
-          <frame id="2246:1999" name="img" x="0" y="334" width="336" height="189">
-            <frame id="2246:2000" name="image" x="0" y="0" width="336" height="189">
-              <rounded-rectangle id="2246:2001" name="capa_ct_links 1" x="0" y="0" width="336" height="189" />
-            </frame>
-          </frame>
         </frame>
       </frame>
     </frame>
-    <frame id="2246:2002" name="Playground" x="12" y="4122" width="336" height="3078">
+    <frame id="2246:2002" name="Playground" x="12" y="3999" width="336" height="3078">
       <frame id="2246:2003" name="cabeçalho" x="20" y="32" width="296" height="222">
         <frame id="2246:2004" name="t" x="0" y="0" width="296" height="106">
           <text id="2246:2005" name="Playground" x="0" y="0" width="296" height="24" />
@@ -1933,7 +1908,7 @@ solo" x="20" y="52" width="192" height="42" />
         </frame>
       </frame>
     </frame>
-    <frame id="2246:2051" name="Sobre" x="12" y="7200" width="336" height="1635">
+    <frame id="2246:2051" name="Sobre" x="12" y="7077" width="336" height="1363">
       <frame id="2246:2052" name="cabeçalho" x="0" y="32" width="336" height="495">
         <frame id="2246:2053" name="t" x="0" y="32" width="336" height="107">
           <text id="2246:2054" name="Sobre" x="0" y="0" width="336" height="21" />
@@ -1944,37 +1919,7 @@ solo" x="20" y="52" width="192" height="42" />
           <text id="2246:2058" name="Hoje, entrego a visão completa: do conceito inicial ao código com IA, conectando estratégia, pessoas e eficiência operacional em cada projeto." x="0" y="208" width="336" height="96" />
         </frame>
       </frame>
-      <frame id="2246:2059" name="trajetória" x="0" y="559" width="336" height="240">
-        <frame id="2246:2060" name="Frame 106" x="0" y="32" width="145" height="35">
-          <frame id="2246:2061" name="PersonSimpleRun" x="0" y="0" width="35" height="35" />
-          <text id="2246:2063" name="TRAJETÓRIA" x="47" y="4" width="98" height="27" />
-        </frame>
-        <frame id="2246:2064" name="CaretRight" x="157" y="37.5" width="24" height="24" />
-        <frame id="2246:2066" name="passo" x="193" y="32" width="122" height="35">
-          <text id="2246:2067" name="Direção de arte" x="13" y="7" width="96" height="21" />
-        </frame>
-        <frame id="2246:2068" name="CaretRight" x="0" y="84.5" width="24" height="24" />
-        <frame id="2246:2070" name="passo" x="36" y="79" width="64" height="35">
-          <text id="2246:2071" name="Marca" x="13" y="7" width="38" height="21" />
-        </frame>
-        <frame id="2246:2072" name="CaretRight" x="112" y="84.5" width="24" height="24" />
-        <frame id="2246:2074" name="passo" x="148" y="79" width="93" height="35">
-          <text id="2246:2075" name="Campanha" x="13" y="7" width="67" height="21" />
-        </frame>
-        <frame id="2246:2076" name="CaretRight" x="253" y="84.5" width="24" height="24" />
-        <frame id="2246:2078" name="passo" x="0" y="126" width="127" height="35">
-          <text id="2246:2079" name="Produto e UX/UI" x="13" y="7" width="101" height="21" />
-        </frame>
-        <frame id="2246:2080" name="CaretRight" x="139" y="131.5" width="24" height="24" />
-        <frame id="2246:2082" name="passo" x="175" y="126" width="118" height="35">
-          <text id="2246:2083" name="Design system" x="13" y="7" width="92" height="21" />
-        </frame>
-        <frame id="2246:2084" name="CaretRight" x="305" y="131.5" width="24" height="24" />
-        <frame id="2246:2086" name="passo" x="0" y="173" width="136" height="35">
-          <text id="2246:2087" name="Front-end com IA" x="13" y="7" width="110" height="21" />
-        </frame>
-      </frame>
-      <frame id="2246:2088" name="fotos" x="0" y="831" width="336" height="772">
+      <frame id="2246:2088" name="fotos" x="0" y="559" width="336" height="772">
         <frame id="2246:2089" name="[imagem] Foto 1 · trabalhando" x="0" y="0" width="336" height="244">
           <rounded-rectangle id="2246:2090" name="foto_premio 1" x="22" y="23.5" width="292" height="197" />
         </frame>
@@ -1986,8 +1931,8 @@ solo" x="20" y="52" width="192" height="42" />
         </frame>
       </frame>
     </frame>
-    <frame id="2246:2095" name="respiro" x="12" y="8835" width="336" height="64" />
-    <frame id="2246:2096" name="Contato" x="12" y="8899" width="336" height="738">
+    <frame id="2246:2095" name="respiro" x="12" y="8440" width="336" height="64" />
+    <frame id="2246:2096" name="Contato" x="12" y="8504" width="336" height="738">
       <frame id="2246:2097" name="disponível" x="20" y="40" width="296" height="27">
         <ellipse id="2246:2098" name="Ellipse" x="0" y="6.5" width="8" height="8" />
         <text id="2246:2099" name="Disponível para trabalhar" x="17" y="0" width="193" height="21" />
@@ -2013,9 +1958,9 @@ solo" x="20" y="52" width="192" height="42" />
         <text id="2246:2119" name="oerickteixeira@gmail.com · São Paulo" x="0" y="60" width="207" height="18" />
       </frame>
     </frame>
-    <frame id="2246:2120" name="respiro" x="12" y="9637" width="336" height="120" />
+    <frame id="2246:2120" name="respiro" x="12" y="9242" width="336" height="120" />
   </frame>
-  <frame id="2247:1585" name="Case · ThumbDrop v3 · mobile 360" x="-3117" y="0" width="360" height="14894">
+  <frame id="2247:1585" name="Case · ThumbDrop v3 · mobile 360" x="-3117" y="0" width="360" height="14661">
     <frame id="2247:1586" name="topo" x="12" y="0" width="336" height="42">
       <text id="2247:1587" name="Erick · product &amp; design engineer" x="0" y="18" width="240" height="12" />
       <frame id="2247:1588" name="menu" x="0" y="42" width="336" height="21" hidden="true">
@@ -2091,7 +2036,7 @@ solo" x="20" y="52" width="192" height="42" />
         </frame>
       </frame>
     </frame>
-    <frame id="2247:1641" name="02 · A/B" x="12" y="2100" width="336" height="2802">
+    <frame id="2247:1641" name="02 · A/B" x="12" y="2100" width="336" height="2569">
       <frame id="2247:1642" name="cabeçalho" x="0" y="32" width="336" height="257">
         <text id="2247:1643" name="02 · O TESTE A/B" x="0" y="16" width="336" height="21" />
         <text id="2247:1644" name="Duas versões, a mesma tarefa." x="0" y="53" width="336" height="52" />
@@ -2127,27 +2072,24 @@ solo" x="20" y="52" width="192" height="42" />
           <text id="2247:1667" name="Três minutos, thumb publicada no canal." x="0" y="201" width="336" height="42" />
         </frame>
       </frame>
-      <frame id="2247:1668" name="Frame 105" x="0" y="2069" width="336" height="733">
+      <frame id="4016:59" name="quem testou" x="0" y="2069" width="336" height="234">
+        <frame id="4016:60" name="QUEM TESTOU" x="0" y="0" width="336" height="21">
+          <text id="4016:61" name="QUEM TESTOU" x="0" y="0" width="336" height="21" />
+        </frame>
+        <frame id="4016:72" name="[mockup] quem testou · duas das seis pessoas por rodada" x="0" y="45" width="336" height="189">
+          <rounded-rectangle id="4016:73" name="card - personas - thumbdrop" x="0" y="0" width="336" height="189" />
+        </frame>
+      </frame>
+      <frame id="2247:1668" name="o que a segunda versão resolveu" x="0" y="2335" width="336" height="234">
         <frame id="2247:1669" name="O QUE A SEGUNDA VERSÃO RESOLVEU" x="0" y="0" width="336" height="21">
           <text id="2247:1670" name="O QUE A SEGUNDA VERSÃO RESOLVEU" x="0" y="0" width="336" height="21" />
         </frame>
-        <frame id="2247:1671" name="o que mudou" x="0" y="45" width="336" height="688">
-          <frame id="2247:1672" name="dbox" x="0" y="0" width="336" height="184">
-            <text id="2247:1673" name="Fluxo guiado em 4 paradas" x="24" y="36" width="288" height="24" />
-            <text id="2247:1674" name="A V1 mostrava tudo de uma vez. A final só revela a ferrament" x="24" y="76" width="288" height="72" />
-          </frame>
-          <frame id="2247:1675" name="dbox" x="0" y="204" width="336" height="208">
-            <text id="2247:1676" name="O custo aparece antes de custar" x="24" y="36" width="288" height="24" />
-            <text id="2247:1677" name="Todo gasto de IA passa por uma confirmação que mostra o preç" x="24" y="76" width="288" height="96" />
-          </frame>
-          <frame id="2247:1678" name="dbox" x="0" y="432" width="336" height="256">
-            <text id="2247:1679" name="Nada se perde ao voltar" x="24" y="36" width="288" height="24" />
-            <text id="2247:1680" name="Qualquer parada já visitada é clicável. Reenquadrar, mover e" x="24" y="76" width="288" height="144" />
-          </frame>
+        <frame id="4016:74" name="[mockup] V1 → V2 · o que travava e o que mudou" x="0" y="45" width="336" height="189">
+          <rounded-rectangle id="4016:75" name="card - v1 v2 - thumbdrop" x="0" y="0" width="336" height="189" />
         </frame>
       </frame>
     </frame>
-    <frame id="2247:1681" name="03 · Decisões" x="12" y="4902" width="336" height="1934">
+    <frame id="2247:1681" name="03 · Decisões" x="12" y="4669" width="336" height="1934">
       <frame id="2247:1682" name="cabeçalho" x="0" y="32" width="336" height="213">
         <text id="2247:1683" name="03 · AS DECISÕES QUE SUSTENTAM O FLUXO" x="0" y="0" width="336" height="21" />
         <text id="2247:1684" name="Quatro paradas, e uma regra de cor que não se quebra." x="0" y="37" width="336" height="52" />
@@ -2185,7 +2127,7 @@ solo" x="20" y="52" width="192" height="42" />
         <text id="2247:1707" name="Reenquadrar, mover, trocar a cor do texto e refazer a moldur" x="20" y="106" width="296" height="168" />
       </frame>
     </frame>
-    <frame id="2247:1708" name="04 · Craft" x="12" y="6836" width="336" height="1397">
+    <frame id="2247:1708" name="04 · Craft" x="12" y="6603" width="336" height="1397">
       <frame id="2247:1709" name="cabeçalho" x="0" y="32" width="336" height="177">
         <text id="2247:1710" name="04 · CRAFT" x="0" y="0" width="336" height="21" />
         <text id="2247:1711" name="O que faz parecer um editor de verdade." x="0" y="37" width="336" height="52" />
@@ -2215,7 +2157,7 @@ solo" x="20" y="52" width="192" height="42" />
         <text id="2247:1728" name="Quando o conteúdo de uma parada não cabia, a saída fácil era" x="20" y="106" width="296" height="192" />
       </frame>
     </frame>
-    <frame id="2247:1729" name="05 · Sistema" x="12" y="8233" width="336" height="1139">
+    <frame id="2247:1729" name="05 · Sistema" x="12" y="8000" width="336" height="1139">
       <frame id="2247:1730" name="cabeçalho" x="0" y="32" width="336" height="201">
         <text id="2247:1731" name="05 · O SISTEMA" x="0" y="0" width="336" height="21" />
         <text id="2247:1732" name="Nenhum hex escrito à mão, em nenhum arquivo." x="0" y="37" width="336" height="52" />
@@ -2247,7 +2189,7 @@ solo" x="20" y="52" width="192" height="42" />
         <rounded-rectangle id="2247:1751" name="card - biblioteca 1" x="0" y="0" width="336" height="133" />
       </frame>
     </frame>
-    <frame id="2247:1752" name="06 · Hoje" x="12" y="9372" width="336" height="2341">
+    <frame id="2247:1752" name="06 · Hoje" x="12" y="9139" width="336" height="2341">
       <frame id="2247:1753" name="cabeçalho" x="0" y="32" width="336" height="249">
         <text id="2247:1754" name="06 · ONDE ESTÁ HOJE" x="0" y="0" width="336" height="21" />
         <text id="2247:1755" name="Está em uso, e o custo não é o problema." x="0" y="37" width="336" height="52" />
@@ -2296,7 +2238,7 @@ solo" x="20" y="52" width="192" height="42" />
         <text id="2247:1787" name="Cada filtro e cada recorte passam por uma API paga. No volum" x="20" y="79" width="296" height="432" />
       </frame>
     </frame>
-    <frame id="2247:1788" name="07 · Em aberto" x="12" y="11713" width="336" height="1329">
+    <frame id="2247:1788" name="07 · Em aberto" x="12" y="11480" width="336" height="1329">
       <frame id="2247:1789" name="cabeçalho" x="0" y="32" width="336" height="175">
         <text id="2247:1790" name="07 · EM ABERTO" x="0" y="0" width="336" height="21" />
         <text id="2247:1791" name="O que eu não resolvi." x="0" y="37" width="336" height="26" />
@@ -2321,13 +2263,13 @@ solo" x="20" y="52" width="192" height="42" />
         </frame>
       </frame>
     </frame>
-    <frame id="2247:1806" name="cta" x="12" y="13042" width="336" height="116">
+    <frame id="2247:1806" name="cta" x="12" y="12809" width="336" height="116">
       <frame id="2247:1807" name="ver o case" x="0" y="32" width="167" height="52">
         <frame id="2247:1808" name="figma-icon 1" x="24" y="14" width="16" height="24" />
         <text id="2247:1815" name="Ver protótipo" x="48" y="14" width="95" height="24" />
       </frame>
     </frame>
-    <frame id="2247:1816" name="Ver mais" x="12" y="13158" width="336" height="954">
+    <frame id="2247:1816" name="Ver mais" x="12" y="12925" width="336" height="954">
       <frame id="2247:1817" name="cabeçalho" x="0" y="32" width="336" height="63">
         <text id="2247:1818" name="08 · MAIS" x="0" y="0" width="336" height="21" />
         <text id="2247:1819" name="Outros projetos" x="0" y="37" width="336" height="26" />
@@ -2353,7 +2295,7 @@ solo" x="20" y="52" width="192" height="42" />
         </frame>
       </frame>
     </frame>
-    <frame id="2247:1833" name="Contato" x="12" y="14112" width="336" height="750">
+    <frame id="2247:1833" name="Contato" x="12" y="13879" width="336" height="750">
       <frame id="2247:1834" name="disponível" x="20" y="40" width="296" height="27">
         <ellipse id="2247:1835" name="Ellipse" x="0" y="6.5" width="8" height="8" />
         <text id="2247:1836" name="Disponível para trabalhar" x="17" y="0" width="193" height="21" />
@@ -2380,7 +2322,7 @@ solo" x="20" y="52" width="192" height="42" />
       </frame>
     </frame>
   </frame>
-  <frame id="2247:1857" name="Case · Nega Nagô v3 · mobile 360" x="-1226" y="0" width="360" height="14014">
+  <frame id="2247:1857" name="Case · Nega Nagô v3 · mobile 360" x="-1226" y="0" width="360" height="13449">
     <frame id="2247:1858" name="topo" x="12" y="0" width="336" height="42">
       <text id="2247:1859" name="Erick · product &amp; design engineer" x="0" y="18" width="240" height="12" />
       <frame id="2247:1860" name="menu" x="0" y="42" width="336" height="21" hidden="true">
@@ -2510,45 +2452,26 @@ e em operação" x="20" y="52" width="296" height="42" />
         </frame>
       </frame>
     </frame>
-    <frame id="2247:1946" name="03 · Restrições" x="12" y="4344" width="336" height="1870">
+    <frame id="2247:1946" name="03 · Restrições" x="12" y="4344" width="336" height="1026">
       <frame id="2247:1947" name="cabeçalho" x="0" y="32" width="336" height="203">
         <text id="2247:1948" name="03 · RESTRIÇÕES" x="0" y="0" width="336" height="21" />
         <text id="2247:1949" name="Quase toda decisão de tela veio de uma restrição do negócio." x="0" y="37" width="336" height="78" />
         <text id="2247:1950" name="Nenhuma dessas escolhas saiu de intuição de UX. Saíram de co" x="0" y="131" width="336" height="72" />
       </frame>
-      <frame id="2247:1951" name="[mockup anotado] cinco restrições do negócio, na tela de agendamento" x="0" y="267" width="336" height="1216">
+      <frame id="2247:1951" name="[mockup anotado] cinco restrições do negócio, na tela de agendamento" x="0" y="267" width="336" height="372">
         <frame id="2247:1952" name="[mockup] cinco restrições do negócio, na tela de agendamento" x="0" y="0" width="336" height="151">
           <rounded-rectangle id="2247:1953" name="card - restricoes 2" x="20" y="9" width="296" height="133" />
         </frame>
-        <frame id="2247:1954" name="anotações" x="0" y="183" width="336" height="1033">
-          <frame id="2247:1955" name="anot 1" x="0" y="0" width="336" height="205">
-            <text id="2247:1956" name="01" x="24" y="36" width="288" height="21" />
-            <text id="2247:1957" name="Ela compra o material antes. Por isso o " x="24" y="73" width="288" height="96" />
-          </frame>
-          <frame id="2247:1958" name="anot 2" x="0" y="225" width="336" height="181">
-            <text id="2247:1959" name="02" x="24" y="36" width="288" height="21" />
-            <text id="2247:1960" name="A cliente já está no WhatsApp. O fluxo t" x="24" y="73" width="288" height="72" />
-          </frame>
-          <frame id="2247:1961" name="anot 3" x="0" y="426" width="336" height="181">
-            <text id="2247:1962" name="03" x="24" y="36" width="288" height="21" />
-            <text id="2247:1963" name="O adicional custa diferente por família " x="24" y="73" width="288" height="72" />
-          </frame>
-          <frame id="2247:1964" name="anot 4" x="0" y="627" width="336" height="181">
-            <text id="2247:1965" name="04" x="24" y="36" width="288" height="21" />
-            <text id="2247:1966" name="Ela atende no estúdio e a domicílio. O b" x="24" y="73" width="288" height="72" />
-          </frame>
-          <frame id="2247:1967" name="anot 5" x="0" y="828" width="336" height="205">
-            <text id="2247:1968" name="05" x="24" y="36" width="288" height="21" />
-            <text id="2247:1969" name="Sem gateway no piloto. O site calcula e " x="24" y="73" width="288" height="96" />
-          </frame>
+        <frame id="4016:82" name="[mockup] restrição → decisão · o quadro das cinco restrições" x="0" y="183" width="336" height="189">
+          <rounded-rectangle id="4016:83" name="card - restricao decisao - nega" x="0" y="0" width="336" height="189" />
         </frame>
       </frame>
-      <frame id="2247:1970" name="card" x="0" y="1515" width="336" height="355">
+      <frame id="2247:1970" name="card" x="0" y="671" width="336" height="355">
         <text id="2247:1971" name="A decisão mais cara do projeto: o painel nunca rola." x="20" y="36" width="296" height="27" />
         <text id="2247:1972" name="Quando o conteúdo de uma parada não cabia, a saída fácil era" x="20" y="79" width="296" height="240" />
       </frame>
     </frame>
-    <frame id="2247:1973" name="04 · Pesquisa" x="12" y="6214" width="336" height="2752">
+    <frame id="2247:1973" name="04 · Pesquisa" x="12" y="5370" width="336" height="3031">
       <frame id="2247:1974" name="cabeçalho" x="0" y="32" width="336" height="201">
         <text id="2247:1975" name="04 · PESQUISA" x="0" y="0" width="336" height="21" />
         <text id="2247:1976" name="Quatro pessoas, duas rodadas. A primeira sem cor nenhuma." x="0" y="37" width="336" height="52" />
@@ -2590,12 +2513,18 @@ e em operação" x="20" y="52" width="296" height="42" />
           <text id="2247:2003" name="Chega sem referência nenhuma — nem de preço, nem de vocabulá" x="24" y="113" width="288" height="72" />
         </frame>
       </frame>
-      <frame id="2247:2004" name="card" x="0" y="1907" width="336" height="419">
+      <frame id="4016:84" name="personas" x="0" y="1907" width="336" height="247">
+        <frame id="4016:85" name="[mockup] personas · a cliente recorrente e quem nunca tinha contratado" x="0" y="0" width="336" height="189">
+          <rounded-rectangle id="4016:86" name="card - personas - nega" x="0" y="0" width="336" height="189" />
+        </frame>
+        <text id="4016:87" name="De perto, duas das quatro pessoas: a cliente recorrente (01)" x="0" y="205" width="336" height="42" />
+      </frame>
+      <frame id="2247:2004" name="card" x="0" y="2186" width="336" height="419">
         <text id="2247:2005" name="O ELOGIO QUE MAIS SE REPETIU" x="20" y="36" width="296" height="21" />
         <text id="2247:2006" name="Não foi sobre beleza. Foi sobre saber quanto ia custar." x="20" y="73" width="296" height="54" />
         <text id="2247:2007" name="A conta recalcula a cada toque: muda o tamanho, muda o adici" x="20" y="143" width="296" height="240" />
       </frame>
-      <frame id="2247:2008" name="resultados da pesquisa" x="0" y="2358" width="336" height="394">
+      <frame id="2247:2008" name="resultados da pesquisa" x="0" y="2637" width="336" height="394">
         <frame id="2247:2009" name="nbox" x="0" y="0" width="162" height="191">
           <text id="2247:2010" name="4/4" x="24" y="24" width="114" height="26" />
           <text id="2247:2011" name="chegaram ao fim do agendamento sem que eu explicasse como fu" x="24" y="62" width="114" height="105" />
@@ -2614,7 +2543,7 @@ e em operação" x="20" y="52" width="296" height="42" />
         </frame>
       </frame>
     </frame>
-    <frame id="2247:2021" name="05 · Sistema" x="12" y="8966" width="336" height="1386">
+    <frame id="2247:2021" name="05 · Sistema" x="12" y="8401" width="336" height="1386">
       <frame id="2247:2022" name="cabeçalho" x="0" y="32" width="336" height="227">
         <text id="2247:2023" name="05 · SISTEMA E ENGENHARIA" x="0" y="0" width="336" height="21" />
         <text id="2247:2024" name="Um sistema pequeno, documentado inteiro — e conferido por me" x="0" y="37" width="336" height="78" />
@@ -2646,7 +2575,7 @@ e em operação" x="20" y="52" width="296" height="42" />
         <text id="2247:2043" name="Uma suíte em Playwright abre o protótipo nos dois breakpoint" x="20" y="106" width="296" height="360" />
       </frame>
     </frame>
-    <frame id="2247:2044" name="06 · Imagens" x="12" y="10352" width="336" height="801">
+    <frame id="2247:2044" name="06 · Imagens" x="12" y="9787" width="336" height="801">
       <frame id="2247:2045" name="cabeçalho" x="0" y="32" width="336" height="201">
         <text id="2247:2046" name="06 · CATÁLOGO DE IMAGENS" x="0" y="0" width="336" height="21" />
         <text id="2247:2047" name="Nenhuma foto existia. Dirigi e gerei as treze." x="0" y="37" width="336" height="52" />
@@ -2660,7 +2589,7 @@ e em operação" x="20" y="52" width="296" height="42" />
         <text id="2247:2053" name="Amostrei os quatro cantos de cada foto e converti para matiz" x="20" y="79" width="296" height="288" />
       </frame>
     </frame>
-    <frame id="2247:2054" name="07 · Resultado" x="12" y="11153" width="336" height="1078">
+    <frame id="2247:2054" name="07 · Resultado" x="12" y="10588" width="336" height="1078">
       <frame id="2247:2055" name="cabeçalho" x="0" y="32" width="336" height="201">
         <text id="2247:2056" name="07 · RESULTADO" x="0" y="0" width="336" height="21" />
         <text id="2247:2057" name="Dezesseis agendamentos por mês viraram quarenta." x="0" y="37" width="336" height="52" />
@@ -2690,13 +2619,13 @@ e em operação" x="20" y="52" width="296" height="42" />
         <text id="2247:2075" name="A agenda ainda não é real: os dias ocupados estão fixos no c" x="20" y="79" width="296" height="240" />
       </frame>
     </frame>
-    <frame id="2247:2076" name="cta" x="12" y="12231" width="336" height="116">
+    <frame id="2247:2076" name="cta" x="12" y="11666" width="336" height="116">
       <frame id="2247:2077" name="ver o case" x="0" y="32" width="167" height="52">
         <frame id="2247:2078" name="figma-icon 1" x="24" y="14" width="16" height="24" />
         <text id="2247:2085" name="Ver protótipo" x="48" y="14" width="95" height="24" />
       </frame>
     </frame>
-    <frame id="2247:2086" name="Ver mais" x="12" y="12347" width="336" height="885">
+    <frame id="2247:2086" name="Ver mais" x="12" y="11782" width="336" height="885">
       <frame id="2247:2087" name="cabeçalho" x="0" y="32" width="336" height="63">
         <text id="2247:2088" name="08 · MAIS" x="0" y="0" width="336" height="21" />
         <text id="2247:2089" name="Outros projetos" x="0" y="37" width="336" height="26" />
@@ -2722,7 +2651,7 @@ e em operação" x="20" y="52" width="296" height="42" />
         </frame>
       </frame>
     </frame>
-    <frame id="2247:2103" name="Contato" x="12" y="13232" width="336" height="750">
+    <frame id="2247:2103" name="Contato" x="12" y="12667" width="336" height="750">
       <frame id="2247:2104" name="disponível" x="20" y="40" width="296" height="27">
         <ellipse id="2247:2105" name="Ellipse" x="0" y="6.5" width="8" height="8" />
         <text id="2247:2106" name="Disponível para trabalhar" x="17" y="0" width="193" height="21" />
@@ -3357,4 +3286,8 @@ solo" x="20" y="52" width="296" height="42" />
     <symbol id="2264:1585" name="Ativo=EN" x="16" y="16" width="72" height="28" />
     <symbol id="2264:1590" name="Ativo=PT" x="104" y="16" width="72" height="28" />
   </frame>
+  <rounded-rectangle id="4014:42" name="MOCKUP · ThumbDrop · personas · 1920×1080 1" x="3607" y="2679" width="1920" height="1080" />
+  <rounded-rectangle id="4014:43" name="MOCKUP · ThumbDrop · V1 → V2 · 1920×1080 1" x="5567" y="2679" width="1920" height="1080" />
+  <rounded-rectangle id="4014:44" name="MOCKUP · Nega Nagô · personas · 1920×1080 1" x="3607" y="3799" width="1920" height="1080" />
+  <rounded-rectangle id="4014:45" name="MOCKUP · Nega Nagô · restrição → decisão · 1920×1080 1" x="5567" y="3799" width="1920" height="1080" />
 </canvas>

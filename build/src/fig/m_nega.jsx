@@ -1,17 +1,19 @@
-const imgCardHeroNegaNago1 = "https://www.figma.com/api/mcp/asset/3463a1e9-8224-473e-ab8f-4bd564e68607.png";
-const imgCardAntesNegaNago1 = "https://www.figma.com/api/mcp/asset/dd86adff-536d-4568-827f-e912d2da27d3.png";
-const imgCardDepoisNegaNago1 = "https://www.figma.com/api/mcp/asset/e53d6d95-ce0c-48db-aeb4-77f1e8bbe36f.png";
-const imgCardWhatsappNeganago1 = "https://www.figma.com/api/mcp/asset/51bca779-6a78-4054-8a5d-ad84ceaeab44.png";
-const imgCardRestricoes2 = "https://www.figma.com/api/mcp/asset/873253d6-9c41-469d-9d98-56d4cedb9fec.png";
-const imgCardWireframe1 = "https://www.figma.com/api/mcp/asset/3a45fccf-d2c7-4f86-b776-50414274f40e.png";
-const imgCardPrototype1 = "https://www.figma.com/api/mcp/asset/0212eedc-3184-4ddf-93f7-6925c70a0731.png";
-const imgCardDesignSystem1 = "https://www.figma.com/api/mcp/asset/3b613955-be84-417a-a9a0-38dd91391cca.png";
-const imgNeganagofluxoimagensia16X961 = "https://www.figma.com/api/mcp/asset/7f55a652-68c8-43f4-bdfd-0584b9838592.png";
-const imgFigmaIcon1 = "https://www.figma.com/api/mcp/asset/baa6d9b4-d3c6-429b-ba3b-eaec2133e9db.svg";
-const imgEllipse = "https://www.figma.com/api/mcp/asset/f79af98c-d52f-4428-81ce-da85dfd3eb4f.svg";
-const imgCopy = "https://www.figma.com/api/mcp/asset/0375e01b-0947-4fed-b74d-4f85999d1fd6.svg";
-const imgReadCvLogo = "https://www.figma.com/api/mcp/asset/739b46c0-c4ad-4b04-83da-d06747de9946.svg";
-const imgLinkedInIcon1 = "https://www.figma.com/api/mcp/asset/7d55583c-201f-4bef-94e2-23b3609c107c.svg";
+const imgCardHeroNegaNago1 = "https://www.figma.com/api/mcp/asset/da6652e4-8e17-45a3-b9ca-eccb63e76589.png";
+const imgCardAntesNegaNago1 = "https://www.figma.com/api/mcp/asset/8ef49c98-8d83-4056-81f8-dc6e6b32cf77.png";
+const imgCardDepoisNegaNago1 = "https://www.figma.com/api/mcp/asset/575e0826-1d3d-45ba-9ee5-baaaebc81301.png";
+const imgCardWhatsappNeganago1 = "https://www.figma.com/api/mcp/asset/27b31f94-be54-4e8d-9128-f649060f7b36.png";
+const imgCardRestricoes2 = "https://www.figma.com/api/mcp/asset/9db7e840-d407-463b-a7bd-ab0b63baca80.png";
+const imgCardRestricaoDecisaoNega = "https://www.figma.com/api/mcp/asset/9378688d-b777-4305-8e4b-5febd5edc829.png";
+const imgCardWireframe1 = "https://www.figma.com/api/mcp/asset/f9c510af-401e-44ce-8de5-9ad7b55016ae.png";
+const imgCardPrototype1 = "https://www.figma.com/api/mcp/asset/915d67c0-3404-46f6-a3d6-9f2d356626d4.png";
+const imgCardPersonasNega = "https://www.figma.com/api/mcp/asset/845faf24-293b-4a86-8934-478555928599.png";
+const imgCardDesignSystem1 = "https://www.figma.com/api/mcp/asset/38c2b2a1-39bd-41ab-90c9-1635368475c5.png";
+const imgNeganagofluxoimagensia16X961 = "https://www.figma.com/api/mcp/asset/6c46b8b8-8e31-49a3-a953-6445f248c45d.png";
+const imgFigmaIcon1 = "https://www.figma.com/api/mcp/asset/75f7f2b6-ecee-4ad4-a8e2-e9ed9256e97b.svg";
+const imgEllipse = "https://www.figma.com/api/mcp/asset/92a2d6e8-fe1b-47ae-8e2c-ba37992cc96f.svg";
+const imgCopy = "https://www.figma.com/api/mcp/asset/be028360-a086-46df-9091-69c4793e9809.svg";
+const imgReadCvLogo = "https://www.figma.com/api/mcp/asset/9e08ca75-9d45-4a7b-9e65-27a493e18ddd.svg";
+const imgLinkedInIcon1 = "https://www.figma.com/api/mcp/asset/5a70f65d-4353-4a33-b10c-8df324622c62.svg";
 
 type SeletorDeIdiomaProps = {
   className?: string;
@@ -263,44 +265,9 @@ export default function CaseNegaNagoV3Mobile360() {
               <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgCardRestricoes2} />
             </div>
           </div>
-          <div className="[word-break:break-word] content-stretch flex flex-col gap-[20px] items-start leading-[1.5] overflow-clip relative shrink-0 w-full" data-node-id="2247:1954" data-name="anotações">
-            <div className="bg-[#e5dfd3] content-stretch flex flex-col gap-[16px] items-start overflow-clip px-[24px] py-[36px] relative rounded-[12px] shrink-0 w-full" data-node-id="2247:1955" data-name="anot 1">
-              <p className="font-['Sofia_Sans:Bold'] font-bold relative shrink-0 text-[#675d54] text-[14px] tracking-[0.28px] uppercase w-full" data-node-id="2247:1956">
-                01
-              </p>
-              <p className="font-['Sofia_Sans:Light'] font-light relative shrink-0 text-[#232323] text-[16px] tracking-[0.32px] w-full" data-node-id="2247:1957">
-                Ela compra o material antes. Por isso o sinal de 30% aparece calculado em toda tela de preço — nunca no fim, como surpresa.
-              </p>
-            </div>
-            <div className="bg-[#e5dfd3] content-stretch flex flex-col gap-[16px] items-start overflow-clip px-[24px] py-[36px] relative rounded-[12px] shrink-0 w-full" data-node-id="2247:1958" data-name="anot 2">
-              <p className="font-['Sofia_Sans:Bold'] font-bold relative shrink-0 text-[#675d54] text-[14px] tracking-[0.28px] uppercase w-full" data-node-id="2247:1959">
-                02
-              </p>
-              <p className="font-['Sofia_Sans:Light'] font-light relative shrink-0 text-[#232323] text-[16px] tracking-[0.32px] w-full" data-node-id="2247:1960">
-                A cliente já está no WhatsApp. O fluxo termina lá dentro: o site escreve a mensagem inteira, ela só aperta enviar.
-              </p>
-            </div>
-            <div className="bg-[#e5dfd3] content-stretch flex flex-col gap-[16px] items-start overflow-clip px-[24px] py-[36px] relative rounded-[12px] shrink-0 w-full" data-node-id="2247:1961" data-name="anot 3">
-              <p className="font-['Sofia_Sans:Bold'] font-bold relative shrink-0 text-[#675d54] text-[14px] tracking-[0.28px] uppercase w-full" data-node-id="2247:1962">
-                03
-              </p>
-              <p className="font-['Sofia_Sans:Light'] font-light relative shrink-0 text-[#232323] text-[16px] tracking-[0.32px] w-full" data-node-id="2247:1963">
-                O adicional custa diferente por família de trança. Um campo por estilo; quem não tem a opção não vê o campo.
-              </p>
-            </div>
-            <div className="bg-[#e5dfd3] content-stretch flex flex-col gap-[16px] items-start overflow-clip px-[24px] py-[36px] relative rounded-[12px] shrink-0 w-full" data-node-id="2247:1964" data-name="anot 4">
-              <p className="font-['Sofia_Sans:Bold'] font-bold relative shrink-0 text-[#675d54] text-[14px] tracking-[0.28px] uppercase w-full" data-node-id="2247:1965">
-                04
-              </p>
-              <p className="font-['Sofia_Sans:Light'] font-light relative shrink-0 text-[#232323] text-[16px] tracking-[0.32px] w-full" data-node-id="2247:1966">{`Ela atende no estúdio e a domicílio. O bloco de endereço só existe na tela quando 'a domicílio' está marcado.`}</p>
-            </div>
-            <div className="bg-[#e5dfd3] content-stretch flex flex-col gap-[16px] items-start overflow-clip px-[24px] py-[36px] relative rounded-[12px] shrink-0 w-full" data-node-id="2247:1967" data-name="anot 5">
-              <p className="font-['Sofia_Sans:Bold'] font-bold relative shrink-0 text-[#675d54] text-[14px] tracking-[0.28px] uppercase w-full" data-node-id="2247:1968">
-                05
-              </p>
-              <p className="font-['Sofia_Sans:Light'] font-light relative shrink-0 text-[#232323] text-[16px] tracking-[0.32px] w-full" data-node-id="2247:1969">
-                Sem gateway no piloto. O site calcula e informa; a cobrança acontece na conversa, com a divisão exata na mensagem.
-              </p>
+          <div className="h-[189px] overflow-clip relative rounded-[12px] shrink-0 w-full" data-node-id="4016:82" data-name="[mockup] restrição → decisão · o quadro das cinco restrições">
+            <div className="absolute h-[189px] left-0 top-0 w-[336px]" data-node-id="4016:83" data-name="card - restricao decisao - nega">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgCardRestricaoDecisaoNega} />
             </div>
           </div>
         </div>
@@ -309,7 +276,7 @@ export default function CaseNegaNagoV3Mobile360() {
             O fluxo não é o desenho ideal.
           </p>
           <p className="font-['Sofia_Sans:Regular'] font-normal relative shrink-0 text-[#fbf7f4] text-[16px] tracking-[0.32px] w-full" data-node-id="2247:1972">
-            É o desenho que cabe no jeito que ela já trabalha — e cada linha acima é uma decisão que eu não tomaria olhando só para a tela. A restrição mais recente veio depois do lançamento: quem manda na disponibilidade é a agenda do Google que ela já usava no celular. Ela abre e fecha os dias por lá, do jeito dela, e o site segue — sem painel novo e sem ferramenta nova para aprender.
+            É o desenho que cabe no jeito que ela já trabalha — e cada post-it verde acima é uma decisão que eu não tomaria olhando só para a tela. A restrição mais recente veio depois do lançamento: quem manda na disponibilidade é a agenda do Google que ela já usava no celular. Ela abre e fecha os dias por lá, do jeito dela, e o site segue — sem painel novo e sem ferramenta nova para aprender.
           </p>
         </div>
       </div>
@@ -392,6 +359,16 @@ export default function CaseNegaNagoV3Mobile360() {
               Chega sem referência nenhuma — nem de preço, nem de vocabulário. Revela o que a tela precisa explicar sozinha.
             </p>
           </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[16px] items-start overflow-clip relative shrink-0 w-full" data-node-id="4016:84" data-name="personas">
+          <div className="h-[189px] overflow-clip relative rounded-[12px] shrink-0 w-full" data-node-id="4016:85" data-name="[mockup] personas · a cliente recorrente e quem nunca tinha contratado">
+            <div className="absolute h-[189px] left-0 top-0 w-[336px]" data-node-id="4016:86" data-name="card - personas - nega">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgCardPersonasNega} />
+            </div>
+          </div>
+          <p className="[word-break:break-word] font-['Sofia_Sans:Regular'] font-normal leading-[1.5] relative shrink-0 text-[#675d54] text-[14px] tracking-[0.28px] w-full" data-node-id="4016:87">
+            De perto, duas das quatro pessoas: a cliente recorrente (01) e quem nunca tinha contratado (04).
+          </p>
         </div>
         <div className="[word-break:break-word] bg-[#232323] content-stretch flex flex-col gap-[16px] items-start leading-[1.5] overflow-clip px-[20px] py-[36px] relative rounded-[12px] shrink-0 w-full" data-node-id="2247:2004" data-name="card">
           <p className="font-['Sofia_Sans:Bold'] font-bold relative shrink-0 text-[#a39383] text-[14px] tracking-[0.28px] w-full" data-node-id="2247:2005">

@@ -1,13 +1,15 @@
-const imgCardHeroThumbdrop3 = "https://www.figma.com/api/mcp/asset/d522dc90-04a6-4b0c-b37f-a41942df7ad4.png";
-const imgCard4Estados1 = "https://www.figma.com/api/mcp/asset/7983f6dd-30ee-4073-af5a-7e2295622832.png";
-const imgCardComportamentos1 = "https://www.figma.com/api/mcp/asset/d6c7614e-322e-4dbd-9043-63f1fd5c701a.png";
-const imgCardBiblioteca1 = "https://www.figma.com/api/mcp/asset/fb8875a3-a446-4a14-b8c8-4ec5383c07ca.png";
-const imgCardThumbs1 = "https://www.figma.com/api/mcp/asset/901f432c-58fd-4dd5-968d-6329ffcc3cce.png";
-const imgFigmaIcon1 = "https://www.figma.com/api/mcp/asset/cae307e9-a3dc-4ebd-9d0c-50cf90f8c91f.svg";
-const imgEllipse = "https://www.figma.com/api/mcp/asset/c275894d-31f3-4133-91ff-f37cff0416fc.svg";
-const imgCopy = "https://www.figma.com/api/mcp/asset/e1cd7419-e45f-4696-8401-65c90efe7e2b.svg";
-const imgReadCvLogo = "https://www.figma.com/api/mcp/asset/375fc87c-a845-4ef9-b1c9-cc0a9cf4cf64.svg";
-const imgLinkedInIcon1 = "https://www.figma.com/api/mcp/asset/e8f95a28-0e9b-44bb-aa3f-82edaaef8af1.svg";
+const imgCardHeroThumbdrop3 = "https://www.figma.com/api/mcp/asset/a779bc13-557d-4ea7-80fd-ba3b51d50b55.png";
+const imgCardPersonasThumbdrop = "https://www.figma.com/api/mcp/asset/9cce2b3d-0d92-4ab4-83cf-cccf9277f8ef.png";
+const imgCardV1V2Thumbdrop = "https://www.figma.com/api/mcp/asset/e1240b02-6043-4f7e-a11d-200f13ecd21f.png";
+const imgCard4Estados1 = "https://www.figma.com/api/mcp/asset/70af0b14-c347-4478-9e4d-dff282369835.png";
+const imgCardComportamentos1 = "https://www.figma.com/api/mcp/asset/822d446a-5122-448d-8729-d327a556cc5b.png";
+const imgCardBiblioteca1 = "https://www.figma.com/api/mcp/asset/b04af8a3-71d2-444a-848b-6e88b2249a9b.png";
+const imgCardThumbs1 = "https://www.figma.com/api/mcp/asset/58a91788-6aa1-43e7-8f31-5d2ea9b0fdb8.png";
+const imgFigmaIcon1 = "https://www.figma.com/api/mcp/asset/3f046234-1c16-4563-acdc-84aff2d8a155.svg";
+const imgEllipse = "https://www.figma.com/api/mcp/asset/bb9b2b0a-672e-4b6e-b30a-4d5dfd9a8c5c.svg";
+const imgCopy = "https://www.figma.com/api/mcp/asset/4e9e84df-a0c0-4fac-b6a4-4da1ed9868ba.svg";
+const imgReadCvLogo = "https://www.figma.com/api/mcp/asset/e63ee070-d60b-44fa-8d13-cb11c7b3086c.svg";
+const imgLinkedInIcon1 = "https://www.figma.com/api/mcp/asset/eb962586-579d-4452-afda-2ce938e4beee.svg";
 
 type SeletorDeIdiomaProps = {
   className?: string;
@@ -245,37 +247,27 @@ export default function CaseThumbDropV3Desktop1400() {
             </p>
           </div>
         </div>
-        <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-full" data-node-id="2230:6709">
+        <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-full" data-node-id="4016:42" data-name="quem testou">
+          <div className="content-stretch flex items-center justify-center relative shrink-0 w-full" data-node-id="4016:43" data-name="QUEM TESTOU">
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Sofia_Sans:Bold'] font-bold leading-[1.5] min-w-px relative text-[#675d54] text-[14px] tracking-[0.28px] uppercase" data-node-id="4016:44">
+              QUEM TESTOU
+            </p>
+          </div>
+          <div className="h-[652.5px] overflow-clip relative rounded-[12px] shrink-0 w-full" data-node-id="4016:55" data-name="[mockup] quem testou · duas das seis pessoas por rodada">
+            <div className="absolute h-[652.5px] left-0 top-0 w-[1160px]" data-node-id="4016:56" data-name="card - personas - thumbdrop">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgCardPersonasThumbdrop} />
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[24px] items-start relative shrink-0 w-full" data-node-id="2230:6709" data-name="o que a segunda versão resolveu">
           <div className="content-stretch flex items-center justify-center relative shrink-0 w-full" data-node-id="2230:6710" data-name="O QUE A SEGUNDA VERSÃO RESOLVEU">
             <p className="[word-break:break-word] flex-[1_0_0] font-['Sofia_Sans:Bold'] font-bold leading-[1.5] min-w-px relative text-[#675d54] text-[14px] tracking-[0.28px] uppercase" data-node-id="2230:6711">
               O QUE A SEGUNDA VERSÃO RESOLVEU
             </p>
           </div>
-          <div className="[word-break:break-word] content-stretch flex gap-[48px] items-start overflow-clip relative shrink-0 text-[16px] tracking-[0.32px] w-full" data-node-id="2230:6712" data-name="o que mudou">
-            <div className="bg-[#eeeae2] content-stretch flex flex-[1_0_0] flex-col gap-[16px] items-start min-w-px overflow-clip px-[24px] py-[36px] relative rounded-[12px] self-stretch" data-node-id="2230:6713" data-name="dbox">
-              <p className="font-['Sofia_Sans:Bold'] font-bold leading-[1.5] min-w-full relative shrink-0 text-[#675d54] w-[min-content]" data-node-id="2230:6714">
-                Fluxo guiado em 4 paradas
-              </p>
-              <div className="font-['Sofia_Sans:Light'] font-light leading-[0] relative shrink-0 text-[#232323] w-[300px] whitespace-pre-wrap" data-node-id="2230:6715">
-                <p className="leading-[1.5] mb-0">{`A V1 mostrava tudo de uma vez. `}</p>
-                <p className="leading-[1.5]">A final só revela cada ferramenta depois que existe conteúdo para ela operar.</p>
-              </div>
-            </div>
-            <div className="bg-[#eeeae2] content-stretch flex flex-[1_0_0] flex-col gap-[16px] items-start leading-[1.5] min-w-px overflow-clip px-[24px] py-[36px] relative rounded-[12px] self-stretch" data-node-id="2230:6716" data-name="dbox">
-              <p className="font-['Sofia_Sans:Bold'] font-bold min-w-full relative shrink-0 text-[#675d54] w-[min-content]" data-node-id="2230:6717">
-                O custo aparece antes da chamada
-              </p>
-              <p className="font-['Sofia_Sans:Light'] font-light relative shrink-0 text-[#232323] w-[300px]" data-node-id="2230:6718">
-                O filtro e o recorte pedem confirmação própria e mostram o custo antes de rodar: 1 ✦ no recorte, 1 na prévia e 2 na entrega. Exportar é gratuito.
-              </p>
-            </div>
-            <div className="bg-[#eeeae2] content-stretch flex flex-[1_0_0] flex-col gap-[16px] items-start leading-[1.5] min-w-px overflow-clip px-[24px] py-[36px] relative rounded-[12px] self-stretch" data-node-id="2230:6719" data-name="dbox">
-              <p className="font-['Sofia_Sans:Bold'] font-bold min-w-full relative shrink-0 text-[#675d54] w-[min-content]" data-node-id="2230:6720">
-                Voltar não custa edição
-              </p>
-              <p className="font-['Sofia_Sans:Light'] font-light relative shrink-0 text-[#232323] w-[300px]" data-node-id="2230:6721">
-                Paradas já visitadas podem ser retomadas, e reenquadrar, mover ou refazer o texto é local e não gasta crédito. Uma prévia de IA não aprovada é descartada ao sair da etapa, e a composição fica só na memória da aba.
-              </p>
+          <div className="h-[652.5px] overflow-clip relative rounded-[12px] shrink-0 w-full" data-node-id="4016:57" data-name="[mockup] V1 → V2 · o que travava e o que mudou">
+            <div className="absolute h-[652.5px] left-0 top-0 w-[1160px]" data-node-id="4016:58" data-name="card - v1 v2 - thumbdrop">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgCardV1V2Thumbdrop} />
             </div>
           </div>
         </div>

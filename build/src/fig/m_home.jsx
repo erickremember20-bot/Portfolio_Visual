@@ -1,21 +1,14 @@
-const img23305BceBac94B229EbbDd6Df0Bc2Acf1 = "https://www.figma.com/api/mcp/asset/8a4e3b72-aa38-4e19-a3b1-f55a5967c6fd.png";
-const imgLogoKabum2 = "https://www.figma.com/api/mcp/asset/9853aa2f-9a7d-42f6-84c2-756f3dfb6e82.png";
-const imgLogoNetshoes2 = "https://www.figma.com/api/mcp/asset/fa6acf5e-02c7-4b3f-a3bf-cbcad5fd1b91.png";
-const imgLogoCabaltech1 = "https://www.figma.com/api/mcp/asset/ade2602e-f98e-4c25-bff4-3d3fc11b1e41.png";
-const imgLogoMotorola4 = "https://www.figma.com/api/mcp/asset/62cc9ff0-4033-4589-a9b5-3e42d1bca219.png";
-const imgLogoMagalu2 = "https://www.figma.com/api/mcp/asset/91f63279-0457-4ebe-a76e-4bc520d84154.png";
-const imgFotoPremio1 = "https://www.figma.com/api/mcp/asset/734c165c-2ae9-4666-a716-055b61bdf9e9.png";
-const imgFotoGrupo2 = "https://www.figma.com/api/mcp/asset/876da1f7-28f1-4472-ac9d-ebd8c951da9e.png";
-const imgFotoTime2 = "https://www.figma.com/api/mcp/asset/c522ee51-5913-4077-944e-5ec185b0e7b6.png";
-const imgReadCvLogo = "https://www.figma.com/api/mcp/asset/5789b26a-3886-40e2-95fa-f314ffc8673f.svg";
-const imgCopy = "https://www.figma.com/api/mcp/asset/ebe182bf-a75f-4731-8db5-427b533f7552.svg";
-const imgMapPinSimpleArea = "https://www.figma.com/api/mcp/asset/dc5147a3-fc92-43a4-a988-7ac38949a86e.svg";
-const imgPersonSimpleRun = "https://www.figma.com/api/mcp/asset/67a66f6d-9044-46a3-9666-e1ff36791d3a.svg";
-const imgCaretRight = "https://www.figma.com/api/mcp/asset/892c41be-0994-4ee1-9988-8ac37b10684e.svg";
-const imgEllipse = "https://www.figma.com/api/mcp/asset/ee9ee8a9-6ec2-4773-a9d2-ce7938a2ee8d.svg";
-const imgCopy1 = "https://www.figma.com/api/mcp/asset/0f177e57-1f50-4441-b7aa-f3a805f7da3e.svg";
-const imgReadCvLogo1 = "https://www.figma.com/api/mcp/asset/49b101ac-c215-46fd-9ea5-911c34dd1c43.svg";
-const imgLinkedInIcon1 = "https://www.figma.com/api/mcp/asset/9dfd8a68-440b-4ff3-a55b-009b142fcbaa.svg";
+const img23305BceBac94B229EbbDd6Df0Bc2Acf1 = "https://www.figma.com/api/mcp/asset/ac7c59eb-b58e-4291-82ee-7652c741adf4.png";
+const imgFotoPremio1 = "https://www.figma.com/api/mcp/asset/45b4805c-e459-47ea-8c23-f207837a55d5.png";
+const imgFotoGrupo2 = "https://www.figma.com/api/mcp/asset/b10dd9d2-aadb-4ad8-b173-4c9dd94148e9.png";
+const imgFotoTime2 = "https://www.figma.com/api/mcp/asset/d426c2c8-0d93-48ac-bbff-2b8c68c54e04.png";
+const imgReadCvLogo = "https://www.figma.com/api/mcp/asset/eb230887-db36-40ad-a293-c8e5cae65b74.svg";
+const imgCopy = "https://www.figma.com/api/mcp/asset/b7ac04d5-fd5d-49d2-98e6-225e12715283.svg";
+const imgMapPinSimpleArea = "https://www.figma.com/api/mcp/asset/e3b9bd35-6b59-46b5-8407-f231272f8ad7.svg";
+const imgEllipse = "https://www.figma.com/api/mcp/asset/80e3eb73-50cc-48ca-af9b-75b15a3f3f2a.svg";
+const imgCopy1 = "https://www.figma.com/api/mcp/asset/b8bd18ae-9142-419b-85b3-c08012b64400.svg";
+const imgReadCvLogo1 = "https://www.figma.com/api/mcp/asset/7466f2d7-0275-40f7-b0c2-f61b66b8581a.svg";
+const imgLinkedInIcon1 = "https://www.figma.com/api/mcp/asset/0f9ab300-09c3-4505-b7ee-460cfd7e51b8.svg";
 
 type SeletorDeIdiomaProps = {
   className?: string;
@@ -105,25 +98,6 @@ export default function HomeMobile360() {
           </p>
         </div>
       </div>
-      <div className="content-stretch flex flex-col items-center justify-center overflow-clip py-[36px] relative shrink-0 w-full" data-node-id="2246:1881" data-name="Marcas">
-        <div className="content-center flex flex-wrap gap-[12px] items-center relative shrink-0 w-full" data-node-id="2246:1882">
-          <div className="h-[20px] relative shrink-0 w-[84px]" data-node-id="2246:1883" data-name="logo_kabum 2">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgLogoKabum2} />
-          </div>
-          <div className="h-[13px] relative shrink-0 w-[84px]" data-node-id="2246:1884" data-name="logo_netshoes 2">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgLogoNetshoes2} />
-          </div>
-          <div className="h-[17.864px] relative shrink-0 w-[84px]" data-node-id="2246:1885" data-name="logo_cabaltech 1">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgLogoCabaltech1} />
-          </div>
-          <div className="h-[19px] relative shrink-0 w-[84px]" data-node-id="2246:1886" data-name="logo_motorola 4">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgLogoMotorola4} />
-          </div>
-          <div className="h-[18px] relative shrink-0 w-[84px]" data-node-id="2246:1887" data-name="logo_magalu 2">
-            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgLogoMagalu2} />
-          </div>
-        </div>
-      </div>
       <div className="[word-break:break-word] border border-[#99928c] border-solid content-stretch flex flex-col items-start overflow-clip relative rounded-[12px] shrink-0 w-full" data-node-id="2246:1888" data-name="disciplinas">
         <div className="border-[#99928c] border-r border-solid content-stretch flex flex-col gap-[8px] items-start overflow-clip p-[20px] relative shrink-0 w-full" data-node-id="2246:1889" data-name="item">
           <p className="font-['Sofia_Sans:Bold'] font-bold leading-[1.5] relative shrink-0 text-[#675d54] text-[16px] tracking-[0.32px] w-full" data-node-id="2246:1890">
@@ -174,6 +148,11 @@ export default function HomeMobile360() {
       <div className="content-stretch flex flex-col gap-[32px] items-center overflow-clip py-[32px] relative shrink-0 w-full" data-node-id="2246:1905" data-name="Projetos">
         <div className="border-[rgba(208,205,202,0.55)] border-b border-solid content-stretch flex flex-col items-start pb-[32px] relative shrink-0 w-full" data-node-id="2246:1906">
           <div className="content-stretch flex flex-col gap-[20px] items-start overflow-clip relative shrink-0 w-full" data-node-id="2246:1907" data-name="projeto 01">
+            <div className="content-stretch flex flex-col items-end relative shrink-0 w-full" data-node-id="2246:1927" data-name="img">
+              <div className="content-stretch flex flex-col items-start overflow-clip relative rounded-[12px] shrink-0 w-full" data-node-id="2246:1928" data-name="image">
+                <div className="aspect-[1920/1080] relative shrink-0 w-full" data-node-id="2246:1929" data-name="capa_thumbdrop 1" />
+              </div>
+            </div>
             <div className="content-stretch flex flex-col gap-[24px] items-start overflow-clip relative shrink-0 w-full" data-node-id="2246:1908" data-name="título + métrica">
               <div className="[word-break:break-word] content-stretch flex flex-col gap-[10px] items-start leading-[1.5] overflow-clip relative shrink-0 text-[#232323] w-full" data-node-id="2246:1909" data-name="texto">
                 <p className="font-['Sofia_Sans:Bold'] font-bold relative shrink-0 text-[18px] tracking-[0.36px] w-full" data-node-id="2246:1910">
@@ -221,15 +200,15 @@ export default function HomeMobile360() {
                 </div>
               </div>
             </div>
-            <div className="content-stretch flex flex-col items-end relative shrink-0 w-full" data-node-id="2246:1927" data-name="img">
-              <div className="content-stretch flex flex-col items-start overflow-clip relative rounded-[12px] shrink-0 w-full" data-node-id="2246:1928" data-name="image">
-                <div className="aspect-[1920/1080] relative shrink-0 w-full" data-node-id="2246:1929" data-name="capa_thumbdrop 1" />
-              </div>
-            </div>
           </div>
         </div>
         <div className="border-[rgba(208,205,202,0.55)] border-b border-solid content-stretch flex flex-col items-start pb-[32px] relative shrink-0 w-full" data-node-id="2246:1930">
           <div className="content-stretch flex flex-col gap-[20px] items-start overflow-clip relative shrink-0 w-full" data-node-id="2246:1931" data-name="projeto 01">
+            <div className="content-stretch flex flex-col items-end relative shrink-0 w-full" data-node-id="2246:1951" data-name="img">
+              <div className="content-stretch flex flex-col items-start overflow-clip relative rounded-[12px] shrink-0 w-full" data-node-id="2246:1952" data-name="image">
+                <div className="aspect-[1920/1080] relative shrink-0 w-full" data-node-id="2246:1953" data-name="capa_nega_nago 4" />
+              </div>
+            </div>
             <div className="content-stretch flex flex-col gap-[24px] items-start overflow-clip relative shrink-0 w-full" data-node-id="2246:1932" data-name="título + métrica">
               <div className="[word-break:break-word] content-stretch flex flex-col gap-[10px] items-start leading-[1.5] overflow-clip relative shrink-0 text-[#232323] w-full" data-node-id="2246:1933" data-name="texto">
                 <p className="font-['Sofia_Sans:Bold'] font-bold relative shrink-0 text-[18px] tracking-[0.36px] w-full" data-node-id="2246:1934">
@@ -279,15 +258,15 @@ export default function HomeMobile360() {
                 </div>
               </div>
             </div>
-            <div className="content-stretch flex flex-col items-end relative shrink-0 w-full" data-node-id="2246:1951" data-name="img">
-              <div className="content-stretch flex flex-col items-start overflow-clip relative rounded-[12px] shrink-0 w-full" data-node-id="2246:1952" data-name="image">
-                <div className="aspect-[1920/1080] relative shrink-0 w-full" data-node-id="2246:1953" data-name="capa_nega_nago 4" />
-              </div>
-            </div>
           </div>
         </div>
         <div className="border-[rgba(208,205,202,0.55)] border-b border-solid content-stretch flex flex-col items-start pb-[32px] relative shrink-0 w-full" data-node-id="2246:1954">
           <div className="content-stretch flex flex-col gap-[20px] items-start overflow-clip relative shrink-0 w-full" data-node-id="2246:1955" data-name="projeto 01">
+            <div className="content-stretch flex flex-col items-end relative shrink-0 w-full" data-node-id="2246:1975" data-name="img">
+              <div className="content-stretch flex flex-col items-start overflow-clip relative rounded-[12px] shrink-0 w-full" data-node-id="2246:1976" data-name="image">
+                <div className="aspect-[1920/1080] relative shrink-0 w-full" data-node-id="2246:1977" data-name="capa_ct_em_campo 1" />
+              </div>
+            </div>
             <div className="content-stretch flex flex-col gap-[24px] items-start overflow-clip relative shrink-0 w-full" data-node-id="2246:1956" data-name="título + métrica">
               <div className="[word-break:break-word] content-stretch flex flex-col gap-[10px] items-start leading-[1.5] overflow-clip relative shrink-0 text-[#232323] w-full" data-node-id="2246:1957" data-name="texto">
                 <p className="font-['Sofia_Sans:Bold'] font-bold relative shrink-0 text-[18px] tracking-[0.36px] w-full" data-node-id="2246:1958">
@@ -335,15 +314,15 @@ export default function HomeMobile360() {
                 </div>
               </div>
             </div>
-            <div className="content-stretch flex flex-col items-end relative shrink-0 w-full" data-node-id="2246:1975" data-name="img">
-              <div className="content-stretch flex flex-col items-start overflow-clip relative rounded-[12px] shrink-0 w-full" data-node-id="2246:1976" data-name="image">
-                <div className="aspect-[1920/1080] relative shrink-0 w-full" data-node-id="2246:1977" data-name="capa_ct_em_campo 1" />
-              </div>
-            </div>
           </div>
         </div>
         <div className="content-stretch flex flex-col items-start pb-[32px] relative shrink-0 w-full" data-node-id="2246:1978">
           <div className="content-stretch flex flex-col gap-[20px] items-start overflow-clip relative shrink-0 w-full" data-node-id="2246:1979" data-name="projeto 01">
+            <div className="content-stretch flex flex-col items-end relative shrink-0 w-full" data-node-id="2246:1999" data-name="img">
+              <div className="content-stretch flex flex-col items-start overflow-clip relative rounded-[12px] shrink-0 w-full" data-node-id="2246:2000" data-name="image">
+                <div className="aspect-[1920/1080] relative shrink-0 w-full" data-node-id="2246:2001" data-name="capa_ct_links 1" />
+              </div>
+            </div>
             <div className="content-stretch flex flex-col gap-[24px] items-start overflow-clip relative shrink-0 w-full" data-node-id="2246:1980" data-name="título + métrica">
               <div className="[word-break:break-word] content-stretch flex flex-col gap-[10px] items-start leading-[1.5] overflow-clip relative shrink-0 text-[#232323] w-full" data-node-id="2246:1981" data-name="texto">
                 <p className="font-['Sofia_Sans:Bold'] font-bold relative shrink-0 text-[18px] tracking-[0.36px] w-full" data-node-id="2246:1982">
@@ -389,11 +368,6 @@ export default function HomeMobile360() {
                     </p>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div className="content-stretch flex flex-col items-end relative shrink-0 w-full" data-node-id="2246:1999" data-name="img">
-              <div className="content-stretch flex flex-col items-start overflow-clip relative rounded-[12px] shrink-0 w-full" data-node-id="2246:2000" data-name="image">
-                <div className="aspect-[1920/1080] relative shrink-0 w-full" data-node-id="2246:2001" data-name="capa_ct_links 1" />
               </div>
             </div>
           </div>
@@ -525,64 +499,6 @@ export default function HomeMobile360() {
             </div>
             <p className="leading-[1.5] relative shrink-0 w-full" data-node-id="2246:2058">
               Hoje, entrego a visão completa: do conceito inicial ao código com IA, conectando estratégia, pessoas e eficiência operacional em cada projeto.
-            </p>
-          </div>
-        </div>
-        <div className="content-center flex flex-wrap gap-[12px] items-center overflow-clip py-[32px] relative shrink-0 w-full" data-node-id="2246:2059" data-name="trajetória">
-          <div className="content-stretch flex gap-[12px] items-center relative shrink-0" data-node-id="2246:2060">
-            <div className="relative shrink-0 size-[35px]" data-node-id="2246:2061" data-name="PersonSimpleRun">
-              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgPersonSimpleRun} />
-            </div>
-            <p className="[word-break:break-word] font-['Sofia_Sans:Bold'] font-bold leading-[1.5] relative shrink-0 text-[#39332e] text-[18px] tracking-[0.36px] w-[98px]" data-node-id="2246:2063">
-              TRAJETÓRIA
-            </p>
-          </div>
-          <div className="relative shrink-0 size-[24px]" data-node-id="2246:2064" data-name="CaretRight">
-            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCaretRight} />
-          </div>
-          <div className="bg-[#99928c] content-stretch flex items-start overflow-clip px-[13px] py-[7px] relative rounded-[999px] shrink-0" data-node-id="2246:2066" data-name="passo">
-            <p className="[word-break:break-word] font-['Sofia_Sans:Regular'] font-normal leading-[1.5] relative shrink-0 text-[#fbf7f4] text-[14px] tracking-[0.28px] w-[96px]" data-node-id="2246:2067">
-              Direção de arte
-            </p>
-          </div>
-          <div className="relative shrink-0 size-[24px]" data-node-id="2246:2068" data-name="CaretRight">
-            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCaretRight} />
-          </div>
-          <div className="bg-[#99928c] content-stretch flex items-start overflow-clip px-[13px] py-[7px] relative rounded-[999px] shrink-0" data-node-id="2246:2070" data-name="passo">
-            <p className="[word-break:break-word] font-['Sofia_Sans:Regular'] font-normal leading-[1.5] relative shrink-0 text-[#fbf7f4] text-[14px] tracking-[0.28px] w-[38px]" data-node-id="2246:2071">
-              Marca
-            </p>
-          </div>
-          <div className="relative shrink-0 size-[24px]" data-node-id="2246:2072" data-name="CaretRight">
-            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCaretRight} />
-          </div>
-          <div className="bg-[#99928c] content-stretch flex items-start overflow-clip px-[13px] py-[7px] relative rounded-[999px] shrink-0" data-node-id="2246:2074" data-name="passo">
-            <p className="[word-break:break-word] font-['Sofia_Sans:Regular'] font-normal leading-[1.5] relative shrink-0 text-[#fbf7f4] text-[14px] tracking-[0.28px] w-[67px]" data-node-id="2246:2075">
-              Campanha
-            </p>
-          </div>
-          <div className="relative shrink-0 size-[24px]" data-node-id="2246:2076" data-name="CaretRight">
-            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCaretRight} />
-          </div>
-          <div className="bg-[#99928c] content-stretch flex items-start overflow-clip px-[13px] py-[7px] relative rounded-[999px] shrink-0" data-node-id="2246:2078" data-name="passo">
-            <p className="[word-break:break-word] font-['Sofia_Sans:Regular'] font-normal leading-[1.5] relative shrink-0 text-[#fbf7f4] text-[14px] tracking-[0.28px] w-[101px]" data-node-id="2246:2079">
-              Produto e UX/UI
-            </p>
-          </div>
-          <div className="relative shrink-0 size-[24px]" data-node-id="2246:2080" data-name="CaretRight">
-            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCaretRight} />
-          </div>
-          <div className="bg-[#99928c] content-stretch flex items-start overflow-clip px-[13px] py-[7px] relative rounded-[999px] shrink-0" data-node-id="2246:2082" data-name="passo">
-            <p className="[word-break:break-word] font-['Sofia_Sans:Regular'] font-normal leading-[1.5] relative shrink-0 text-[#fbf7f4] text-[14px] tracking-[0.28px] w-[92px]" data-node-id="2246:2083">
-              Design system
-            </p>
-          </div>
-          <div className="relative shrink-0 size-[24px]" data-node-id="2246:2084" data-name="CaretRight">
-            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCaretRight} />
-          </div>
-          <div className="bg-[#99928c] content-stretch flex items-start overflow-clip px-[13px] py-[7px] relative rounded-[999px] shrink-0" data-node-id="2246:2086" data-name="passo">
-            <p className="[word-break:break-word] font-['Sofia_Sans:Regular'] font-normal leading-[1.5] relative shrink-0 text-[#fbf7f4] text-[14px] tracking-[0.28px] w-[110px]" data-node-id="2246:2087">
-              Front-end com IA
             </p>
           </div>
         </div>

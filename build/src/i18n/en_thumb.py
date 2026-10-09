@@ -51,7 +51,10 @@ T = {
     'A primeira versão, com o recorte e o filtro feitos fora da ferramenta.': 'The first version, with the cutout and filter done outside the tool.',
     'A versão final, com recorte e filtro dentro do editor. Três minutos, thumb publicada no canal.':
         'The final version, with cutout and filter inside the editor. Three minutes, thumbnail published on the channel.',
+    'QUEM TESTOU': 'WHO TESTED IT',
+    'quem testou · duas das seis pessoas por rodada': 'who tested it · two of the six people per round',
     'O QUE A SEGUNDA VERSÃO RESOLVEU': 'WHAT THE SECOND VERSION SOLVED',
+    'V1 → V2 · o que travava e o que mudou': 'V1 → V2 · what got stuck and what changed',
     'Fluxo guiado em 4 paradas': 'A guided flow in 4 stops',
     'A V1 mostrava tudo de uma vez. ': 'V1 showed everything at once. ',
     'A final só revela cada ferramenta depois que existe conteúdo para ela operar.': 'The final one only reveals each tool once there’s content for it to work on.',

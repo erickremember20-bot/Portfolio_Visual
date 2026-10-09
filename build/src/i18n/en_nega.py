@@ -57,6 +57,7 @@ T = {
     'Nenhuma dessas escolhas saiu de intuição de UX. Saíram de como ela cobra, de onde a cliente já está e do que o piloto podia bancar.':
         'None of these choices came from UX intuition. They came from how she charges, where the client already is, and what the pilot could afford.',
     'cinco restrições do negócio, na tela de agendamento': 'five business constraints, on the booking screen',
+    'restrição → decisão · o quadro das cinco restrições': 'constraint → decision · the five constraints on one board',
     'Ela compra o material antes. Por isso o sinal de 30% aparece calculado em toda tela de preço — nunca no fim, como surpresa.':
         'She buys the materials in advance. That’s why the 30% deposit appears calculated on every price screen — never at the end, as a surprise.',
     'A cliente já está no WhatsApp. O fluxo termina lá dentro: o site escreve a mensagem inteira, ela só aperta enviar.':
@@ -68,8 +69,8 @@ T = {
     'Sem gateway no piloto. O site calcula e informa; a cobrança acontece na conversa, com a divisão exata na mensagem.':
         'No payment gateway in the pilot. The site calculates and informs; payment happens in the conversation, with the exact split in the message.',
     'O fluxo não é o desenho ideal.': 'The flow isn’t the ideal design.',
-    'É o desenho que cabe no jeito que ela já trabalha — e cada linha acima é uma decisão que eu não tomaria olhando só para a tela. A restrição mais recente veio depois do lançamento: quem manda na disponibilidade é a agenda do Google que ela já usava no celular. Ela abre e fecha os dias por lá, do jeito dela, e o site segue — sem painel novo e sem ferramenta nova para aprender.':
-        'It’s the design that fits the way she already works — and every line above is a decision I wouldn’t make looking only at the screen. The most recent constraint came after launch: availability is controlled by the Google Calendar she already used on her phone. She opens and closes days there, her way, and the site follows — no new dashboard and no new tool to learn.',
+    'É o desenho que cabe no jeito que ela já trabalha — e cada post-it verde acima é uma decisão que eu não tomaria olhando só para a tela. A restrição mais recente veio depois do lançamento: quem manda na disponibilidade é a agenda do Google que ela já usava no celular. Ela abre e fecha os dias por lá, do jeito dela, e o site segue — sem painel novo e sem ferramenta nova para aprender.':
+        'It’s the design that fits the way she already works — and every green sticky note above is a decision I wouldn’t make looking only at the screen. The most recent constraint came after launch: availability is controlled by the Google Calendar she already used on her phone. She opens and closes days there, her way, and the site follows — no new dashboard and no new tool to learn.',
     '04 · PESQUISA': '04 · RESEARCH',
     'Quatro pessoas, duas rodadas. A primeira sem cor nenhuma.': 'Four people, two rounds. The first with no color at all.',
     'Testei em dois momentos: primeiro um rascunho em cinza, só o caminho; depois o protótipo inteiro. Em cinza, o elogio não tem para onde fugir.':
@@ -90,6 +91,9 @@ T = {
     'Conhece o serviço mas não virou hábito. Mostra o que falta para a segunda vez acontecer sozinha.':
         'Knows the service but it didn’t become a habit. Shows what’s missing for the second time to happen on its own.',
     'Nunca contratou': 'Never booked',
+    'personas · a cliente recorrente e quem nunca tinha contratado': 'personas · the returning client and the one who had never booked',
+    'De perto, duas das quatro pessoas: a cliente recorrente (01) e quem nunca tinha contratado (04).':
+        'A closer look at two of the four: the returning client (01) and the one who had never booked (04).',
     'Chega sem referência nenhuma — nem de preço, nem de vocabulário. Revela o que a tela precisa explicar sozinha.':
         'Arrives with no reference at all — not for price, not for vocabulary. Reveals what the screen has to explain on its own.',
     'O ELOGIO QUE MAIS SE REPETIU': 'THE MOST REPEATED PRAISE',

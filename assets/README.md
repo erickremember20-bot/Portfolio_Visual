@@ -11,8 +11,8 @@ assets/
 │   ├── playground/{illustration,avdc,tyler,rich-boy,gold-life,will}.mp4
 │   └── capas/            capas dos 4 cases (vídeo 16:9)
 ├── cases/
-│   ├── nega-nago/        01-hero … 09-imagens-catalogo
-│   ├── thumbdrop/        01-hero … 05-thumbs, video-v1.mp4, video-v2.mp4
+│   ├── nega-nago/        01-hero … 09-imagens-catalogo, 10-restricao-decisao, 11-personas
+│   ├── thumbdrop/        01-hero … 05-thumbs, 06-personas, 07-v1-v2, video-v1.mp4, video-v2.mp4
 │   ├── ct-em-campo/      01-hero … 09-ponto-de-entrada, 07-motion.mp4
 │   └── canaltech-link-hub/ 01-hero-mockup … 07-duas-densidades
 └── shared/               favicon.svg, og-image.jpg
